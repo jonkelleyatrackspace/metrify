@@ -1,3 +1,5 @@
+""" emulates pseudo graylog server """
+
 import asyncore, socket
 
 class AsyncoreServerUDP(asyncore.dispatcher):

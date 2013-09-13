@@ -1,5 +1,20 @@
 import socket, asyncore
 
+#from socket import *
+import zlib
+
+class Client():
+    def __init__(self, server='localhost', port=12201, maxChunkSize=8154):
+        self.graylog2_server = server
+        self.graylog2_port = port
+        self.maxChunkSize = maxChunkSize
+
+    def log(self, message):
+        UDPSock = socket(AF_INET,SOCK_DGRAM)
+        zmessage = zlib.compress(message)
+        UDPSock.sendto(zmessage,(self.graylog2_server,self.graylog2_port))
+        UDPSock.close()
+
 class AsyncoreClientUDP(asyncore.dispatcher):
 
    def __init__(self, server, port):
@@ -30,7 +45,22 @@ class AsyncoreClientUDP(asyncore.dispatcher):
    def handle_write(self):
       if self.buffer != "":
          print self.buffer
-         sent = self.sendto(self.buffer, (self.server, self.port))
+
+#    = zlib.compress(message)
+
+         import json
+         message={}
+         message['version'] = '1.0'
+         message['short_message'] = 'Something happened'
+         message['full_message'] = 'Stack trace\n\nMore data'
+         message['host'] = 'www1'
+         message['facility'] = 'graylog2-server'
+         message['chat'] = self.buffer
+         message = json.dumps(message)
+         #message = zlib.compress(json.dumps(message))
+
+
+         sent = self.sendto(message, (self.server, self.port))
          self.buffer = self.buffer[sent:]
 
 connection = AsyncoreClientUDP("127.0.0.1",5005) # create the "connection"
