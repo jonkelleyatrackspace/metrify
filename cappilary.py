@@ -15,6 +15,10 @@ class gelfTransmitter():
         UDPSock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
         message = json.loads(message)
         message['xCappilaryPeer'] = self.localAddress
+        if 'NOPASS' in message.keys():
+            print "BAILING"
+            return
+        print "DID IT bail"
         message = json.dumps(message)
         zmessage = message #zmessage = zlib.compress(message)
         UDPSock.sendto(zmessage,(self.graylog2_server,self.graylog2_port))
