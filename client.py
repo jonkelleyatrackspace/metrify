@@ -55,7 +55,7 @@ class AsyncoreClientUDP(asyncore.dispatcher):
          message['full_message'] = 'Stack trace\n\nMore data'
          message['host'] = 'www1'
          message['facility'] = 'graylog2-server'
-         message['chat'] = self.buffer
+         message['ASYNC-MESSAGE-OF-THE-DAY'] = self.buffer
          message = json.dumps(message)
          #message = zlib.compress(json.dumps(message))
 
@@ -66,4 +66,4 @@ class AsyncoreClientUDP(asyncore.dispatcher):
 connection = AsyncoreClientUDP("127.0.0.1",5005) # create the "connection"
 while 1:
    asyncore.loop(count = 10) # Check for upto 10 packets this call?
-   connection.buffer += raw_input(" Chat > ") # raw_input (this is a blocking call)
+   connection.buffer += raw_input(" GELF > ") # raw_input (this is a blocking call)
