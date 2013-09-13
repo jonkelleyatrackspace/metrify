@@ -1,7 +1,7 @@
 """ emulates pseudo graylog server """
 
 import asyncore, socket
-
+import zlib
 class AsyncoreServerUDP(asyncore.dispatcher):
    def __init__(self):
       asyncore.dispatcher.__init__(self)
@@ -17,6 +17,7 @@ class AsyncoreServerUDP(asyncore.dispatcher):
    # This is called everytime there is something to read
    def handle_read(self):
       data, addr = self.recvfrom(2048)
+      data = zlib.decompress(data)
       print str(addr)+" >> "+data
 
    # This is called all the time and causes errors if you leave it out.

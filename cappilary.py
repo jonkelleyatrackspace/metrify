@@ -19,7 +19,7 @@ class gelfTransmitter():
             return
 
         message = json.dumps(message)
-        zmessage = message #zmessage = zlib.compress(message)
+        zmessage = zlib.compress(message)
         UDPSock.sendto(zmessage,(self.graylog2_server,self.graylog2_port))
         UDPSock.close()
 
