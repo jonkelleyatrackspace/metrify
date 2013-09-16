@@ -1,6 +1,20 @@
-## Log splitter for now
+#!/usr/bin/env python
+# ---------------------------------------------------------------------------------------------------
+# Logging magic. If nothing else, basic logging _WILL WORK_
+import config,logging
+CONFIG = config.context().get()
+# ---
+if CONFIG['log']['level'].lower() == 'debug': loglevel = logging.DEBUG
+elif  CONFIG['log']['level'].lower() == 'warn': loglevel = logging.WARN
+elif  CONFIG['log']['level'].lower() == 'info': loglevel = logging.INFO
+elif  CONFIG['log']['level'].lower() == 'notice': loglevel = logging.NOTICE
+elif  CONFIG['log']['level'].lower() == 'critical': loglevel = logging.CRITICAL
+import logclass; ohai = logclass.instance('raxstat',CONFIG['log']['level'],loglevel,logging.DEBUG)
+logger = logging.getLogger("raxstat"); logger.debug('*startup*')
+# ---------------------------------------------------------------------------------------------------
 
-
+import json
+logger.debug(json.dumps(CONFIG, indent=3))
 import os, fcntl, struct
 import asyncore, socket, json, zlib
 class gelfTransmitter():
@@ -53,16 +67,17 @@ class gelfTransmitter():
 
 class AsyncoreServerUDP(asyncore.dispatcher):
     def __init__(self):
-        print "AsyncoreServerUD()"
+        logger.debug('*asyncore.start*')
         asyncore.dispatcher.__init__(self)
 
         # Bind to port 5005 on all interfaces
         self.create_socket(socket.AF_INET, socket.SOCK_DGRAM)
-        self.bind(('', 5005))
+
+        self.bind(('127.0.0.1', 5005))
 
    # Even though UDP is connectionless this is called when it binds to a port
     def handle_connect(self):
-        print "Hi, I think I'm ready now"
+        logger.info('Server started.')
 
    # This is called everytime there is something to read
     def handle_read(self):
@@ -80,18 +95,9 @@ class AsyncoreServerUDP(asyncore.dispatcher):
     def handle_write(self):
         pass
 
-import yaml, json
-
-class mkconfig(object):
-    def returnDict(self):
-        conf = yaml.load(open("config.yaml", 'r'))
-        print("----------Config loaded-------------")
-        print(json.dumps(conf, indent=1))
-        return conf
 
 
 
-settings = mkconfig().returnDict()
 
 AsyncoreServerUDP()
 asyncore.loop()

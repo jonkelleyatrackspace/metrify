@@ -1,0 +1,65 @@
+2013-09-16 18:48:44,238 - raxstat - endpointprocessor.py:13 - DEBUG - *startup* - PID: 5775  
+2013-09-16 18:48:44,238 - raxstat - endpointprocessor.py:17 - DEBUG - {
+   "localhost:19": {
+      "gigs": {
+         "riemannOuts": [
+            {
+               "host": "localhost:100"
+            }, 
+            {
+               "host": "remote:200"
+            }
+         ], 
+         "unimplementedOuts": null, 
+         "udprepeatOuts": [
+            {
+               "host": "localhost:699"
+            }
+         ], 
+         "graphiteOuts": [
+            {
+               "project": "test19", 
+               "host": "localhost:1929"
+            }, 
+            {
+               "project": "test19", 
+               "host": "remote:1929"
+            }
+         ]
+      }
+   }, 
+   "log": {
+      "file": "/tmp/raxstat.log", 
+      "level": "DEBUG"
+   }, 
+   "localhost:9": {
+      "gigs": {
+         "riemannOuts": [
+            {
+               "host": "localhost:100"
+            }, 
+            {
+               "host": "remote:200"
+            }
+         ], 
+         "unimplementedOuts": null, 
+         "udprepeatOuts": [
+            {
+               "host": "localhost:699"
+            }
+         ], 
+         "graphiteOuts": [
+            {
+               "project": "test9", 
+               "host": "localhost:1929"
+            }, 
+            {
+               "project": "test9", 
+               "host": "remote:1929"
+            }
+         ]
+      }
+   }
+} - PID: 5775  
+2013-09-16 18:48:44,242 - raxstat - endpointprocessor.py:70 - DEBUG - *asyncore.start* - PID: 5775  
+2013-09-16 18:48:44,242 - raxstat - endpointprocessor.py:80 - INFO - Server started. - PID: 5775  
