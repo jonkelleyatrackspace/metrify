@@ -13,6 +13,8 @@ import logclass; ohai = logclass.instance('raxstat',CONFIG['log']['level'],logle
 logger = logging.getLogger("raxstat"); logger.debug('*startup*')
 # ---------------------------------------------------------------------------------------------------
 
+for i in CONFIG:
+    print i
 import json
 logger.debug(json.dumps(CONFIG, indent=3))
 import os, fcntl, struct
@@ -73,11 +75,18 @@ class AsyncoreServerUDP(asyncore.dispatcher):
         # Bind to port 5005 on all interfaces
         self.create_socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-        self.bind(('127.0.0.1', 5005))
+        print CONFIG['gigs']
+        for listen,v in CONFIG['gigs'].items():
+            self.listen = listen
+            (host,port) = listen.split(':')
+            port = int(port)
+            self.bind((host,port))
+        
+        
 
    # Even though UDP is connectionless this is called when it binds to a port
     def handle_connect(self):
-        logger.info('Server started.')
+        logger.info('Listening @ ' + self.listen )
 
    # This is called everytime there is something to read
     def handle_read(self):
@@ -94,9 +103,6 @@ class AsyncoreServerUDP(asyncore.dispatcher):
    # This is called all the time and causes errors if you leave it out.
     def handle_write(self):
         pass
-
-
-
 
 
 AsyncoreServerUDP()

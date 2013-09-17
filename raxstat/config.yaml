@@ -1,16 +1,6 @@
 logging: {file : '/tmp/raxstat.log' , level: DEBUG }
 gigs:
-  - listen: 'localhost:9'
-    outputs:
-        graphite:
-            - {project: 'test9' , host: 'localhost:1929'}
-            - {project: 'test9' , host: 'remote:1929'}
-        riemann:
-            - {host: 'localhost:100'}
-            - {host: 'remote:200'}
-        udprepeater:
-            - {host: 'localhost:699'}
-  - listen: 'localhost:19'
+  - listen: 'localhost:9993'
     outputs:
         graphite:
             - {project: 'test19' , host: 'localhost:1929'}
@@ -20,4 +10,3 @@ gigs:
             - {host: 'remote:200'}
         udprepeater:
             - {host: 'localhost:699'}
-

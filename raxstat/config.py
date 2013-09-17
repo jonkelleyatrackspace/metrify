@@ -22,15 +22,15 @@ class context(object):
         (outDict['log']['file'], outDict['log']['level']) = (config['logging']['file'], config['logging']['level'])
 
         gigs = config['gigs']
-        
+        outDict['gigs'] = {} 
         for gig in gigs:
             listener = gig['listen']
-            outDict[listener] = {}
-            outDict[listener]['gigs'] = {} 
-            outDict[listener]['gigs']['graphiteOuts'] = gig['outputs'].get('graphite',None)
-            outDict[listener]['gigs']['riemannOuts'] = gig['outputs'].get('riemann',None)
-            outDict[listener]['gigs']['udprepeatOuts'] = gig['outputs'].get('udprepeater',None)
-            outDict[listener]['gigs']['unimplementedOuts'] = gig['outputs'].get('lol',None)
+            
+            outDict['gigs'][listener] = {}
+            outDict['gigs'][listener]['graphiteOuts'] = gig['outputs'].get('graphite',None)
+            outDict['gigs'][listener]['riemannOuts'] = gig['outputs'].get('riemann',None)
+            outDict['gigs'][listener]['udprepeatOuts'] = gig['outputs'].get('udprepeater',None)
+            outDict['gigs'][listener]['unimplementedOuts'] = gig['outputs'].get('lol',None)
 
         logger.debug( json.dumps(outDict,indent=1) )
         return outDict
