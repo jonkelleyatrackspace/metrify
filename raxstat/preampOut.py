@@ -1,4 +1,8 @@
 #!/bin/env python
+
+# Collection of output drivers for the telemtery we're going to need to ship.
+#  This is sorta dirty and subject to change/enhancements
+
 import config,logging
 logger = logging.getLogger('raxstat')
 
@@ -6,8 +10,6 @@ logger = logging.getLogger('raxstat')
 # Class wrapper for: https://github.com/WoLpH/python-statsd
 import statsd
 import socket, json, zlib # for udp emission
-
-
 
 # This files goal is to do a generic class wrap of a 'riemann' interface to do this:
 #riemann = Riemann('127.0.0.1', 5555)
@@ -94,8 +96,12 @@ class riemannevent(object):
         # Now lets use our external module
         riemann = externalModule(RIEMANNHOST, RIEMANNPORT)
         riemann.submit(payloadDict)
+        return
 
 class udpevent(object):
+    """ This takes the formatted input and formats as JSON, zlib compresses, then transmits
+        datagram off to never never land. In case you want to build another app to do something with output?
+    """
     def __init__(self,host,maxChunkSize=8154):
         (server, port ) = host.split(':')
         logger.info("UDP output -> " + server+":"+port)

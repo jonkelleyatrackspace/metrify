@@ -40,7 +40,7 @@ CONFIG = config.context().get()
 import eventhandle
 
 import os, fcntl, struct
-import asyncore, socket
+import asyncore, socket, json, zlib
 class AsyncoreServerUDP(asyncore.dispatcher):
     def __init__(self,host='localhost',port=12201,config=None):
         self.config = config
