@@ -13,6 +13,7 @@ class context(object):
         return yaml.load(filehandle)
     def set(self,inputDict):
         pass
+
     def get(self):
         """ This returns a dictionary representation of config, for easy
         use by the rest of this app. """

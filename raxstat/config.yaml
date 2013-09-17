@@ -14,12 +14,6 @@ gigs:
     outputs:
         graphite:
             - {project: 'test19' , host: 'localhost:1929'}
-            - {project: 'test19' , host: 'remote:1929'}
-        riemann:
-            - {host: 'localhost:100'}
-            - {host: 'remote:200'}
-        udprepeater:
-            - {host: 'localhost:699'}
   - listen: 'localhost:1242'
     outputs:
         graphite:
@@ -40,7 +34,7 @@ gigs:
             - {host: 'remote:200'}
         udprepeater:
             - {host: 'localhost:699'}
-  - listen: 'localhost:1221'
+  - listen: '127.1.1.1:1221'
     outputs:
         graphite:
             - {project: 'test19' , host: 'localhost:1929'}
@@ -51,6 +45,46 @@ gigs:
         udprepeater:
             - {host: 'localhost:699'}
   - listen: 'localhost:1222'
+    outputs:
+        graphite:
+            - {project: 'test19' , host: 'localhost:1929'}
+            - {project: 'test19' , host: 'remote:1929'}
+        riemann:
+            - {host: 'localhost:100'}
+            - {host: 'remote:200'}
+        udprepeater:
+            - {host: 'localhost:699'}
+  - listen: '127.1.1.1:1223'
+    outputs:
+        graphite:
+            - {project: 'test19' , host: 'localhost:1929'}
+            - {project: 'test19' , host: 'remote:1929'}
+        riemann:
+            - {host: 'localhost:100'}
+            - {host: 'remote:200'}
+        udprepeater:
+            - {host: 'localhost:699'}
+  - listen: 'localhost:1224'
+    outputs:
+        graphite:
+            - {project: 'test19' , host: 'localhost:1929'}
+            - {project: 'test19' , host: 'remote:1929'}
+        riemann:
+            - {host: 'localhost:100'}
+            - {host: 'remote:200'}
+        udprepeater:
+            - {host: 'localhost:699'}
+  - listen: '127.1.1.1:1225'
+    outputs:
+        graphite:
+            - {project: 'test19' , host: 'localhost:1929'}
+            - {project: 'test19' , host: 'remote:1929'}
+        riemann:
+            - {host: 'localhost:100'}
+            - {host: 'remote:200'}
+        udprepeater:
+            - {host: 'localhost:699'}
+  - listen: 'localhost:1226'
     outputs:
         graphite:
             - {project: 'test19' , host: 'localhost:1929'}

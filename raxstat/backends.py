@@ -1,8 +1,9 @@
 #!/bin/env python
+import logging; logger = logging.getLogger("raxstat") 
+
 #jonkelley sep 15 2013
 # Class wrapper for: https://github.com/WoLpH/python-statsd
 import statsd
-
 
 # This files goal is to do a generic class wrap of a 'riemann' interface to do this:
 #riemann = Riemann('127.0.0.1', 5555)

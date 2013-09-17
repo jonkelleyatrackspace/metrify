@@ -14,7 +14,8 @@ class instance(object):
         ch = logging.StreamHandler()
         ch.setLevel(LOG_LEVEL_CONSOLE) # Errors only.
         # Apply logformat.
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(filename)s:%(lineno)d - %(levelname)s - %(message)s - PID: %(process)d  ' )
+        #formatter = logging.Formatter('%(asctime)s - %(name)s - %(filename)s:%(lineno)d - %(levelname)s - %(message)s - PID: %(process)d  ' )
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(filename)s:%(lineno)d - %(levelname)s - %(message)s ' )
         fh.setFormatter(formatter)
         ch.setFormatter(formatter)
         # Add handdler to logger instance.

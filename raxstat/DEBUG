@@ -3650,3 +3650,618 @@
 "tt": "e", 
 "eprt": "443"
 } - PID: 7626  
+2013-09-16 20:30:02,857 - raxstat - raxstat.py:13 - DEBUG - *startup* - PID: 7754  
+2013-09-16 20:30:02,862 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 - PID: 7754  
+2013-09-16 20:30:02,862 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 - PID: 7754  
+2013-09-16 20:30:02,863 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 - PID: 7754  
+2013-09-16 20:30:02,863 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 - PID: 7754  
+2013-09-16 20:30:02,863 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 - PID: 7754  
+2013-09-16 20:30:02,863 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 - PID: 7754  
+2013-09-16 20:30:10,369 - raxstat - raxstat.py:13 - DEBUG - *startup* - PID: 7755  
+2013-09-16 20:30:10,374 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 - PID: 7755  
+2013-09-16 20:30:10,375 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 - PID: 7755  
+2013-09-16 20:30:10,375 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 - PID: 7755  
+2013-09-16 20:30:10,375 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 - PID: 7755  
+2013-09-16 20:30:10,375 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 - PID: 7755  
+2013-09-16 20:30:10,375 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 - PID: 7755  
+2013-09-16 20:30:14,225 - raxstat - eventhandle.py:19 - DEBUG - RIEMANN -->riemann1:100{u'rl': u'0', u'ept': u'identity.api.rackspacecloud.com', u'rc': u'200', u'tt': u'TESTING', u'eprt': u'443'} - PID: 7755  
+2013-09-16 20:30:14,225 - raxstat - eventhandle.py:19 - DEBUG - RIEMANN -->riemann2:200{u'rl': u'0', u'ept': u'identity.api.rackspacecloud.com', u'rc': u'200', u'tt': u'TESTING', u'eprt': u'443'} - PID: 7755  
+2013-09-16 20:30:14,225 - raxstat - eventhandle.py:23 - DEBUG - GRAPHITE -->graphite1:1929{u'rl': u'0', u'ept': u'identity.api.rackspacecloud.com', u'rc': u'200', u'tt': u'TESTING', u'eprt': u'443'} - PID: 7755  
+2013-09-16 20:30:14,226 - raxstat - eventhandle.py:23 - DEBUG - GRAPHITE -->graphite2:1929{u'rl': u'0', u'ept': u'identity.api.rackspacecloud.com', u'rc': u'200', u'tt': u'TESTING', u'eprt': u'443'} - PID: 7755  
+2013-09-16 20:30:14,226 - raxstat - eventhandle.py:27 - DEBUG - UDP_REPEAT -->udp1:699{u'rl': u'0', u'ept': u'identity.api.rackspacecloud.com', u'rc': u'200', u'tt': u'TESTING', u'eprt': u'443'} - PID: 7755  
+2013-09-16 20:30:14,226 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40820 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "TESTING", 
+"eprt": "443"
+} - PID: 7755  
+2013-09-16 20:31:07,040 - raxstat - raxstat.py:13 - DEBUG - *startup* - PID: 7765  
+2013-09-16 20:31:07,044 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 - PID: 7765  
+2013-09-16 20:31:07,044 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 - PID: 7765  
+2013-09-16 20:31:07,045 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 - PID: 7765  
+2013-09-16 20:31:07,045 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 - PID: 7765  
+2013-09-16 20:31:07,045 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 - PID: 7765  
+2013-09-16 20:31:07,045 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 - PID: 7765  
+2013-09-16 20:31:09,053 - raxstat - eventhandle.py:19 - DEBUG - RIEMANN -->riemann1:100 - PID: 7765  
+2013-09-16 20:31:09,053 - raxstat - eventhandle.py:19 - DEBUG - RIEMANN -->riemann2:200 - PID: 7765  
+2013-09-16 20:31:09,053 - raxstat - eventhandle.py:23 - DEBUG - graphite -->graphite1:1929 - PID: 7765  
+2013-09-16 20:31:09,054 - raxstat - eventhandle.py:23 - DEBUG - graphite -->graphite2:1929 - PID: 7765  
+2013-09-16 20:31:09,054 - raxstat - eventhandle.py:27 - DEBUG - udp repeater -->udp1:699 - PID: 7765  
+2013-09-16 20:31:09,054 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40820 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "test", 
+"eprt": "443"
+} - PID: 7765  
+2013-09-16 20:32:01,164 - raxstat - eventhandle.py:19 - DEBUG - RIEMANN -->riemann1:100 - PID: 7765  
+2013-09-16 20:32:01,164 - raxstat - eventhandle.py:19 - DEBUG - RIEMANN -->riemann2:200 - PID: 7765  
+2013-09-16 20:32:01,164 - raxstat - eventhandle.py:23 - DEBUG - graphite -->graphite1:1929 - PID: 7765  
+2013-09-16 20:32:01,164 - raxstat - eventhandle.py:23 - DEBUG - graphite -->graphite2:1929 - PID: 7765  
+2013-09-16 20:32:01,164 - raxstat - eventhandle.py:27 - DEBUG - udp repeater -->udp1:699 - PID: 7765  
+2013-09-16 20:32:01,165 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:54274 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "test", 
+"eprt": "443"
+} - PID: 7765  
+2013-09-16 20:32:03,514 - raxstat - raxstat.py:13 - DEBUG - *startup* - PID: 7784  
+2013-09-16 20:32:03,519 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 - PID: 7784  
+2013-09-16 20:32:03,519 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 - PID: 7784  
+2013-09-16 20:32:03,519 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 - PID: 7784  
+2013-09-16 20:32:03,519 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 - PID: 7784  
+2013-09-16 20:32:03,519 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 - PID: 7784  
+2013-09-16 20:32:03,519 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 - PID: 7784  
+2013-09-16 20:32:04,924 - raxstat - eventhandle.py:19 - DEBUG - SEND-2-RIEMANN -->riemann1:100 - PID: 7784  
+2013-09-16 20:32:04,924 - raxstat - eventhandle.py:19 - DEBUG - SEND-2-RIEMANN -->riemann2:200 - PID: 7784  
+2013-09-16 20:32:04,924 - raxstat - eventhandle.py:23 - DEBUG - SEND-2-graphite -->graphite1:1929 - PID: 7784  
+2013-09-16 20:32:04,924 - raxstat - eventhandle.py:23 - DEBUG - SEND-2-graphite -->graphite2:1929 - PID: 7784  
+2013-09-16 20:32:04,925 - raxstat - eventhandle.py:27 - DEBUG - SEND-2-udp repeater -->udp1:699 - PID: 7784  
+2013-09-16 20:32:04,925 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:54274 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "test", 
+"eprt": "443"
+} - PID: 7784  
+2013-09-16 20:35:05,892 - raxstat - raxstat.py:13 - DEBUG - *startup* - PID: 7807  
+2013-09-16 20:35:15,540 - raxstat - raxstat.py:13 - DEBUG - *startup* - PID: 7811  
+2013-09-16 20:35:15,543 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 - PID: 7811  
+2013-09-16 20:35:15,544 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 - PID: 7811  
+2013-09-16 20:35:15,544 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 - PID: 7811  
+2013-09-16 20:35:15,544 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 - PID: 7811  
+2013-09-16 20:35:15,544 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 - PID: 7811  
+2013-09-16 20:35:15,544 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 - PID: 7811  
+2013-09-16 20:35:19,931 - raxstat - eventhandle.py:19 - DEBUG - SEND-2-RIEMANN -->riemann1:100 - PID: 7811  
+2013-09-16 20:35:19,931 - raxstat - eventhandle.py:19 - DEBUG - SEND-2-RIEMANN -->riemann2:200 - PID: 7811  
+2013-09-16 20:35:19,931 - raxstat - eventhandle.py:23 - DEBUG - SEND-2-graphite -->graphite1:1929 - PID: 7811  
+2013-09-16 20:35:19,931 - raxstat - eventhandle.py:23 - DEBUG - SEND-2-graphite -->graphite2:1929 - PID: 7811  
+2013-09-16 20:35:19,931 - raxstat - eventhandle.py:27 - DEBUG - SEND-2-udp repeater -->udp1:699 - PID: 7811  
+2013-09-16 20:35:19,931 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:41819 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "s", 
+"eprt": "443"
+} - PID: 7811  
+2013-09-16 20:36:40,470 - raxstat - raxstat.py:13 - DEBUG - *startup* - PID: 7865  
+2013-09-16 20:36:40,474 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 - PID: 7865  
+2013-09-16 20:36:40,474 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 - PID: 7865  
+2013-09-16 20:36:40,475 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 - PID: 7865  
+2013-09-16 20:36:40,475 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 - PID: 7865  
+2013-09-16 20:36:40,475 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 - PID: 7865  
+2013-09-16 20:36:40,475 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 - PID: 7865  
+2013-09-16 20:36:42,952 - raxstat - eventhandle.py:19 - DEBUG - SEND-2-RIEMANN -->riemann1:100 - PID: 7865  
+2013-09-16 20:36:42,952 - raxstat - eventhandle.py:19 - DEBUG - SEND-2-RIEMANN -->riemann2:200 - PID: 7865  
+2013-09-16 20:36:42,952 - raxstat - eventhandle.py:23 - DEBUG - SEND-2-graphite -->graphite1:1929 - PID: 7865  
+2013-09-16 20:36:42,952 - raxstat - eventhandle.py:23 - DEBUG - SEND-2-graphite -->graphite2:1929 - PID: 7865  
+2013-09-16 20:36:42,952 - raxstat - eventhandle.py:27 - DEBUG - SEND-2-udp repeater -->udp1:699 - PID: 7865  
+2013-09-16 20:36:42,952 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:44731 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "s", 
+"eprt": "443"
+} - PID: 7865  
+2013-09-16 20:38:08,848 - raxstat - eventhandle.py:19 - DEBUG - SEND-2-RIEMANN -->riemann1:100 - PID: 7865  
+2013-09-16 20:38:08,848 - raxstat - eventhandle.py:19 - DEBUG - SEND-2-RIEMANN -->riemann2:200 - PID: 7865  
+2013-09-16 20:38:08,848 - raxstat - eventhandle.py:23 - DEBUG - SEND-2-graphite -->graphite1:1929 - PID: 7865  
+2013-09-16 20:38:08,848 - raxstat - eventhandle.py:23 - DEBUG - SEND-2-graphite -->graphite2:1929 - PID: 7865  
+2013-09-16 20:38:08,848 - raxstat - eventhandle.py:27 - DEBUG - SEND-2-udp repeater -->udp1:699 - PID: 7865  
+2013-09-16 20:38:08,849 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:33750 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "s", 
+"eprt": "443"
+} - PID: 7865  
+2013-09-16 20:38:44,761 - raxstat - raxstat.py:13 - DEBUG - *startup* - PID: 7910  
+2013-09-16 20:38:44,765 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 - PID: 7910  
+2013-09-16 20:38:44,766 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 - PID: 7910  
+2013-09-16 20:38:44,766 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 - PID: 7910  
+2013-09-16 20:38:44,766 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 - PID: 7910  
+2013-09-16 20:38:44,766 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 - PID: 7910  
+2013-09-16 20:38:44,766 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 - PID: 7910  
+2013-09-16 20:40:15,253 - raxstat - eventhandle.py:20 - DEBUG - SEND-2-RIEMANN -->riemann1:100 - PID: 7910  
+2013-09-16 20:40:15,253 - raxstat - eventhandle.py:20 - DEBUG - SEND-2-RIEMANN -->riemann2:200 - PID: 7910  
+2013-09-16 20:40:15,253 - raxstat - eventhandle.py:24 - DEBUG - SEND-2-graphite -->graphite1:1929 - PID: 7910  
+2013-09-16 20:40:15,253 - raxstat - eventhandle.py:24 - DEBUG - SEND-2-graphite -->graphite2:1929 - PID: 7910  
+2013-09-16 20:40:15,253 - raxstat - eventhandle.py:28 - DEBUG - SEND-2-udp repeater -->udp1:699 - PID: 7910  
+2013-09-16 20:40:15,253 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40454 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "ss", 
+"eprt": "443"
+} - PID: 7910  
+2013-09-16 20:40:16,973 - raxstat - raxstat.py:13 - DEBUG - *startup* - PID: 7939  
+2013-09-16 20:40:16,977 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 - PID: 7939  
+2013-09-16 20:40:16,977 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 - PID: 7939  
+2013-09-16 20:40:16,977 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 - PID: 7939  
+2013-09-16 20:40:16,978 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 - PID: 7939  
+2013-09-16 20:40:16,978 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 - PID: 7939  
+2013-09-16 20:40:16,978 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 - PID: 7939  
+2013-09-16 20:40:18,166 - raxstat - eventhandle.py:21 - DEBUG - SEND-2-RIEMANN -->riemann1:100 - PID: 7939  
+2013-09-16 20:40:18,167 - raxstat - eventhandle.py:21 - DEBUG - SEND-2-RIEMANN -->riemann2:200 - PID: 7939  
+2013-09-16 20:40:18,167 - raxstat - eventhandle.py:25 - DEBUG - SEND-2-GRAPHITE -->graphite1:1929 - PID: 7939  
+2013-09-16 20:40:18,167 - raxstat - eventhandle.py:25 - DEBUG - SEND-2-GRAPHITE -->graphite2:1929 - PID: 7939  
+2013-09-16 20:40:18,167 - raxstat - eventhandle.py:29 - DEBUG - SEND-2-udp repeater -->udp1:699 - PID: 7939  
+2013-09-16 20:40:18,167 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40454 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} - PID: 7939  
+2013-09-16 20:41:06,547 - raxstat - raxstat.py:13 - DEBUG - *startup* - PID: 7947  
+2013-09-16 20:41:06,551 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 - PID: 7947  
+2013-09-16 20:41:06,551 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 - PID: 7947  
+2013-09-16 20:41:06,552 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 - PID: 7947  
+2013-09-16 20:41:06,552 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 - PID: 7947  
+2013-09-16 20:41:06,552 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 - PID: 7947  
+2013-09-16 20:41:06,552 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 - PID: 7947  
+2013-09-16 20:41:07,613 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann1:100 - PID: 7947  
+2013-09-16 20:41:07,613 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann2:200 - PID: 7947  
+2013-09-16 20:41:07,614 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite1:1929 - PID: 7947  
+2013-09-16 20:41:07,614 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite2:1929 - PID: 7947  
+2013-09-16 20:41:07,614 - raxstat - eventhandle.py:29 - DEBUG - output(udp) -->udp1:699 - PID: 7947  
+2013-09-16 20:41:07,614 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40454 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "s", 
+"eprt": "443"
+} - PID: 7947  
+2013-09-16 20:41:22,189 - raxstat - raxstat.py:13 - DEBUG - *startup* - PID: 7954  
+2013-09-16 20:41:22,193 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 - PID: 7954  
+2013-09-16 20:41:22,193 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 - PID: 7954  
+2013-09-16 20:41:22,193 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 - PID: 7954  
+2013-09-16 20:41:22,193 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 - PID: 7954  
+2013-09-16 20:41:22,193 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 - PID: 7954  
+2013-09-16 20:41:22,194 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 - PID: 7954  
+2013-09-16 20:41:23,486 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann1:100 - PID: 7954  
+2013-09-16 20:41:23,486 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann2:200 - PID: 7954  
+2013-09-16 20:41:23,487 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite1:1929 - PID: 7954  
+2013-09-16 20:41:23,487 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite2:1929 - PID: 7954  
+2013-09-16 20:41:23,487 - raxstat - eventhandle.py:29 - DEBUG - output(udp)-->udp1:699 - PID: 7954  
+2013-09-16 20:41:23,487 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40454 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} - PID: 7954  
+2013-09-16 20:41:27,932 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann1:100 - PID: 7954  
+2013-09-16 20:41:27,932 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann2:200 - PID: 7954  
+2013-09-16 20:41:27,933 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite1:1929 - PID: 7954  
+2013-09-16 20:41:27,933 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite2:1929 - PID: 7954  
+2013-09-16 20:41:27,933 - raxstat - eventhandle.py:29 - DEBUG - output(udp)-->udp1:699 - PID: 7954  
+2013-09-16 20:41:27,933 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40454 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "r", 
+"eprt": "443"
+} - PID: 7954  
+2013-09-16 20:41:28,134 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann1:100 - PID: 7954  
+2013-09-16 20:41:28,134 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann2:200 - PID: 7954  
+2013-09-16 20:41:28,134 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite1:1929 - PID: 7954  
+2013-09-16 20:41:28,135 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite2:1929 - PID: 7954  
+2013-09-16 20:41:28,135 - raxstat - eventhandle.py:29 - DEBUG - output(udp)-->udp1:699 - PID: 7954  
+2013-09-16 20:41:28,135 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40454 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "r", 
+"eprt": "443"
+} - PID: 7954  
+2013-09-16 20:41:28,309 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann1:100 - PID: 7954  
+2013-09-16 20:41:28,310 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann2:200 - PID: 7954  
+2013-09-16 20:41:28,310 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite1:1929 - PID: 7954  
+2013-09-16 20:41:28,310 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite2:1929 - PID: 7954  
+2013-09-16 20:41:28,310 - raxstat - eventhandle.py:29 - DEBUG - output(udp)-->udp1:699 - PID: 7954  
+2013-09-16 20:41:28,310 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40454 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "r", 
+"eprt": "443"
+} - PID: 7954  
+2013-09-16 20:41:28,483 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann1:100 - PID: 7954  
+2013-09-16 20:41:28,483 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann2:200 - PID: 7954  
+2013-09-16 20:41:28,484 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite1:1929 - PID: 7954  
+2013-09-16 20:41:28,484 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite2:1929 - PID: 7954  
+2013-09-16 20:41:28,484 - raxstat - eventhandle.py:29 - DEBUG - output(udp)-->udp1:699 - PID: 7954  
+2013-09-16 20:41:28,484 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40454 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} - PID: 7954  
+2013-09-16 20:41:28,823 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann1:100 - PID: 7954  
+2013-09-16 20:41:28,823 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann2:200 - PID: 7954  
+2013-09-16 20:41:28,824 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite1:1929 - PID: 7954  
+2013-09-16 20:41:28,824 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite2:1929 - PID: 7954  
+2013-09-16 20:41:28,824 - raxstat - eventhandle.py:29 - DEBUG - output(udp)-->udp1:699 - PID: 7954  
+2013-09-16 20:41:28,824 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40454 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} - PID: 7954  
+2013-09-16 20:41:28,983 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann1:100 - PID: 7954  
+2013-09-16 20:41:28,983 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann2:200 - PID: 7954  
+2013-09-16 20:41:28,983 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite1:1929 - PID: 7954  
+2013-09-16 20:41:28,983 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite2:1929 - PID: 7954  
+2013-09-16 20:41:28,983 - raxstat - eventhandle.py:29 - DEBUG - output(udp)-->udp1:699 - PID: 7954  
+2013-09-16 20:41:28,984 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40454 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "r", 
+"eprt": "443"
+} - PID: 7954  
+2013-09-16 20:41:29,126 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann1:100 - PID: 7954  
+2013-09-16 20:41:29,126 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann2:200 - PID: 7954  
+2013-09-16 20:41:29,127 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite1:1929 - PID: 7954  
+2013-09-16 20:41:29,127 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite2:1929 - PID: 7954  
+2013-09-16 20:41:29,127 - raxstat - eventhandle.py:29 - DEBUG - output(udp)-->udp1:699 - PID: 7954  
+2013-09-16 20:41:29,127 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:40454 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "r", 
+"eprt": "443"
+} - PID: 7954  
+2013-09-16 20:41:58,850 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 20:41:58,854 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 
+2013-09-16 20:41:58,854 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 
+2013-09-16 20:41:58,854 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 
+2013-09-16 20:41:58,854 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 
+2013-09-16 20:41:58,855 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 
+2013-09-16 20:41:58,855 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 
+2013-09-16 20:41:59,948 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann1:100 
+2013-09-16 20:41:59,948 - raxstat - eventhandle.py:21 - DEBUG - output(riemann)-->riemann2:200 
+2013-09-16 20:41:59,948 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite1:1929 
+2013-09-16 20:41:59,948 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->graphite2:1929 
+2013-09-16 20:41:59,948 - raxstat - eventhandle.py:29 - DEBUG - output(udp)-->udp1:699 
+2013-09-16 20:41:59,949 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:36496 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} 
+2013-09-16 20:42:30,684 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 20:42:30,688 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 
+2013-09-16 20:42:30,688 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 
+2013-09-16 20:42:30,688 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 
+2013-09-16 20:42:30,689 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 
+2013-09-16 20:42:30,689 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 
+2013-09-16 20:42:30,689 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 
+2013-09-16 20:42:41,286 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 20:42:41,286 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:47013 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} 
+2013-09-16 21:01:22,935 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:01:22,939 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 
+2013-09-16 21:01:22,939 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 
+2013-09-16 21:01:22,939 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 
+2013-09-16 21:01:22,939 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 
+2013-09-16 21:01:22,940 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 
+2013-09-16 21:01:22,940 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 
+2013-09-16 21:01:37,517 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:01:37,520 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 
+2013-09-16 21:01:37,520 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 
+2013-09-16 21:01:37,520 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 
+2013-09-16 21:01:37,520 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 
+2013-09-16 21:01:37,521 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 
+2013-09-16 21:01:37,521 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 
+2013-09-16 21:02:23,569 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:02:23,572 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 
+2013-09-16 21:02:23,573 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 
+2013-09-16 21:02:23,573 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 
+2013-09-16 21:02:23,573 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 
+2013-09-16 21:02:23,573 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 
+2013-09-16 21:02:23,573 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 
+2013-09-16 21:03:32,031 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:03:32,035 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 
+2013-09-16 21:03:32,035 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 
+2013-09-16 21:03:32,035 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 
+2013-09-16 21:03:32,036 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 
+2013-09-16 21:03:32,036 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 
+2013-09-16 21:03:32,036 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 
+2013-09-16 21:03:40,011 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:03:40,015 - raxstat - raxstat.py:100 - DEBUG - *started* 
+2013-09-16 21:03:40,015 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 
+2013-09-16 21:03:40,015 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 
+2013-09-16 21:03:40,015 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 
+2013-09-16 21:03:40,015 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 
+2013-09-16 21:03:40,015 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 
+2013-09-16 21:03:40,015 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 
+2013-09-16 21:03:46,738 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:03:46,741 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 
+2013-09-16 21:03:46,742 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 
+2013-09-16 21:03:46,742 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 
+2013-09-16 21:03:46,742 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 
+2013-09-16 21:03:46,742 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 
+2013-09-16 21:03:46,742 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 
+2013-09-16 21:04:38,312 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:04:38,316 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:13202 
+2013-09-16 21:04:38,316 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1222 
+2013-09-16 21:04:38,316 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1221 
+2013-09-16 21:04:38,316 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12201 
+2013-09-16 21:04:38,316 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:12202 
+2013-09-16 21:04:38,316 - raxstat - raxstat.py:80 - INFO - *listen* @ localhost:1242 
+2013-09-16 21:05:10,246 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:05:10,251 - raxstat - raxstat.py:80 - INFO - I'm listening @13202 
+2013-09-16 21:05:10,251 - raxstat - raxstat.py:80 - INFO - I'm listening @1222 
+2013-09-16 21:05:10,251 - raxstat - raxstat.py:80 - INFO - I'm listening @1221 
+2013-09-16 21:05:10,251 - raxstat - raxstat.py:80 - INFO - I'm listening @12201 
+2013-09-16 21:05:10,251 - raxstat - raxstat.py:80 - INFO - I'm listening @12202 
+2013-09-16 21:05:10,251 - raxstat - raxstat.py:80 - INFO - I'm listening @1242 
+2013-09-16 21:05:19,032 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:05:19,036 - raxstat - raxstat.py:80 - INFO - I'm listening @localhost:13202 
+2013-09-16 21:05:19,037 - raxstat - raxstat.py:80 - INFO - I'm listening @localhost:1222 
+2013-09-16 21:05:19,037 - raxstat - raxstat.py:80 - INFO - I'm listening @localhost:1221 
+2013-09-16 21:05:19,037 - raxstat - raxstat.py:80 - INFO - I'm listening @localhost:12201 
+2013-09-16 21:05:19,037 - raxstat - raxstat.py:80 - INFO - I'm listening @localhost:12202 
+2013-09-16 21:05:19,037 - raxstat - raxstat.py:80 - INFO - I'm listening @localhost:1242 
+2013-09-16 21:05:30,615 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:05:30,619 - raxstat - raxstat.py:80 - INFO - Waiting for event on 13202 
+2013-09-16 21:05:30,619 - raxstat - raxstat.py:80 - INFO - Waiting for event on 1222 
+2013-09-16 21:05:30,619 - raxstat - raxstat.py:80 - INFO - Waiting for event on 1221 
+2013-09-16 21:05:30,620 - raxstat - raxstat.py:80 - INFO - Waiting for event on 12201 
+2013-09-16 21:05:30,620 - raxstat - raxstat.py:80 - INFO - Waiting for event on 12202 
+2013-09-16 21:05:30,620 - raxstat - raxstat.py:80 - INFO - Waiting for event on 1242 
+2013-09-16 21:05:43,084 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:05:43,088 - raxstat - raxstat.py:80 - INFO - Waiting for event on **:13202 
+2013-09-16 21:05:43,088 - raxstat - raxstat.py:80 - INFO - Waiting for event on **:1222 
+2013-09-16 21:05:43,088 - raxstat - raxstat.py:80 - INFO - Waiting for event on **:1221 
+2013-09-16 21:05:43,089 - raxstat - raxstat.py:80 - INFO - Waiting for event on **:12201 
+2013-09-16 21:05:43,089 - raxstat - raxstat.py:80 - INFO - Waiting for event on **:12202 
+2013-09-16 21:05:43,089 - raxstat - raxstat.py:80 - INFO - Waiting for event on **:1242 
+2013-09-16 21:06:25,653 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:06:25,657 - raxstat - raxstat.py:80 - INFO - Waiting for event on **:13202 
+2013-09-16 21:06:25,657 - raxstat - raxstat.py:80 - INFO - Waiting for event on **:1222 
+2013-09-16 21:06:25,658 - raxstat - raxstat.py:80 - INFO - Waiting for event on **:1221 
+2013-09-16 21:06:25,658 - raxstat - raxstat.py:80 - INFO - Waiting for event on **:12201 
+2013-09-16 21:06:25,658 - raxstat - raxstat.py:80 - INFO - Waiting for event on **:12202 
+2013-09-16 21:06:25,658 - raxstat - raxstat.py:80 - INFO - Waiting for event on **:1242 
+2013-09-16 21:06:31,601 - raxstat - eventhandle.py:25 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:06:31,601 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "ss", 
+"eprt": "443"
+} 
+2013-09-16 21:07:11,782 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:07:11,787 - raxstat - raxstat.py:81 - INFO - Waiting for event on localhost:13202 
+2013-09-16 21:07:11,787 - raxstat - raxstat.py:81 - INFO - Waiting for event on localhost:1222 
+2013-09-16 21:07:11,787 - raxstat - raxstat.py:81 - INFO - Waiting for event on localhost:1221 
+2013-09-16 21:07:11,787 - raxstat - raxstat.py:81 - INFO - Waiting for event on localhost:12201 
+2013-09-16 21:07:11,787 - raxstat - raxstat.py:81 - INFO - Waiting for event on localhost:12202 
+2013-09-16 21:07:11,788 - raxstat - raxstat.py:81 - INFO - Waiting for event on localhost:1242 
+2013-09-16 21:07:24,132 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:07:24,139 - raxstat - raxstat.py:81 - INFO - Waiting for event on localhost:13202 
+2013-09-16 21:07:24,139 - raxstat - raxstat.py:81 - INFO - Waiting for event on 127.1.1.1:1221 
+2013-09-16 21:07:24,139 - raxstat - raxstat.py:81 - INFO - Waiting for event on localhost:1222 
+2013-09-16 21:07:24,139 - raxstat - raxstat.py:81 - INFO - Waiting for event on localhost:12201 
+2013-09-16 21:07:24,140 - raxstat - raxstat.py:81 - INFO - Waiting for event on localhost:12202 
+2013-09-16 21:07:24,140 - raxstat - raxstat.py:81 - INFO - Waiting for event on localhost:1242 
+2013-09-16 21:08:57,205 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:08:57,210 - raxstat - raxstat.py:81 - INFO - LoadNewInstance localhost:13202 listening for UDP events in async mode. 
+2013-09-16 21:08:57,210 - raxstat - raxstat.py:81 - INFO - LoadNewInstance 127.1.1.1:1221 listening for UDP events in async mode. 
+2013-09-16 21:08:57,210 - raxstat - raxstat.py:81 - INFO - LoadNewInstance localhost:1222 listening for UDP events in async mode. 
+2013-09-16 21:08:57,210 - raxstat - raxstat.py:81 - INFO - LoadNewInstance localhost:12201 listening for UDP events in async mode. 
+2013-09-16 21:08:57,210 - raxstat - raxstat.py:81 - INFO - LoadNewInstance localhost:12202 listening for UDP events in async mode. 
+2013-09-16 21:08:57,210 - raxstat - raxstat.py:81 - INFO - LoadNewInstance localhost:1242 listening for UDP events in async mode. 
+2013-09-16 21:09:12,492 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:09:12,499 - raxstat - raxstat.py:81 - INFO - localhost:13202 listening for UDP event. 
+2013-09-16 21:09:12,499 - raxstat - raxstat.py:81 - INFO - 127.1.1.1:1221 listening for UDP event. 
+2013-09-16 21:09:12,499 - raxstat - raxstat.py:81 - INFO - localhost:1222 listening for UDP event. 
+2013-09-16 21:09:12,499 - raxstat - raxstat.py:81 - INFO - localhost:12201 listening for UDP event. 
+2013-09-16 21:09:12,499 - raxstat - raxstat.py:81 - INFO - localhost:12202 listening for UDP event. 
+2013-09-16 21:09:12,500 - raxstat - raxstat.py:81 - INFO - localhost:1242 listening for UDP event. 
+2013-09-16 21:09:17,636 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:09:17,642 - raxstat - raxstat.py:81 - INFO - localhost:13202 listening for UDP events. 
+2013-09-16 21:09:17,642 - raxstat - raxstat.py:81 - INFO - 127.1.1.1:1221 listening for UDP events. 
+2013-09-16 21:09:17,642 - raxstat - raxstat.py:81 - INFO - localhost:1222 listening for UDP events. 
+2013-09-16 21:09:17,643 - raxstat - raxstat.py:81 - INFO - localhost:12201 listening for UDP events. 
+2013-09-16 21:09:17,643 - raxstat - raxstat.py:81 - INFO - localhost:12202 listening for UDP events. 
+2013-09-16 21:09:17,643 - raxstat - raxstat.py:81 - INFO - localhost:1242 listening for UDP events. 
+2013-09-16 21:09:46,230 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:09:46,235 - raxstat - raxstat.py:81 - INFO - Listen() @ localhost:13202 for new events. 
+2013-09-16 21:09:46,235 - raxstat - raxstat.py:81 - INFO - Listen() @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:09:46,236 - raxstat - raxstat.py:81 - INFO - Listen() @ localhost:1222 for new events. 
+2013-09-16 21:09:46,236 - raxstat - raxstat.py:81 - INFO - Listen() @ localhost:12201 for new events. 
+2013-09-16 21:09:46,236 - raxstat - raxstat.py:81 - INFO - Listen() @ localhost:12202 for new events. 
+2013-09-16 21:09:46,236 - raxstat - raxstat.py:81 - INFO - Listen() @ localhost:1242 for new events. 
+2013-09-16 21:09:57,823 - raxstat - raxstat.py:13 - DEBUG - *startup* 
+2013-09-16 21:09:57,828 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:13202 for new events. 
+2013-09-16 21:09:57,828 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:09:57,828 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1222 for new events. 
+2013-09-16 21:09:57,828 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:12201 for new events. 
+2013-09-16 21:09:57,828 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:12202 for new events. 
+2013-09-16 21:09:57,829 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1242 for new events. 
+2013-09-16 21:10:26,658 - raxstat - raxstat.py:13 - INFO - *starting* 
+2013-09-16 21:10:26,663 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:13202 for new events. 
+2013-09-16 21:10:26,663 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:10:26,664 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1222 for new events. 
+2013-09-16 21:10:26,664 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:12201 for new events. 
+2013-09-16 21:10:26,664 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:12202 for new events. 
+2013-09-16 21:10:26,664 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1242 for new events. 
+2013-09-16 21:11:07,257 - raxstat - raxstat.py:13 - INFO - *starting* 
+2013-09-16 21:11:07,262 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:11:07,262 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:13202 for new events. 
+2013-09-16 21:11:07,262 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:11:07,262 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:11:07,262 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1226 for new events. 
+2013-09-16 21:11:07,262 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1224 for new events. 
+2013-09-16 21:11:07,262 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1222 for new events. 
+2013-09-16 21:11:07,263 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:12201 for new events. 
+2013-09-16 21:11:07,263 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:12202 for new events. 
+2013-09-16 21:11:07,263 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1242 for new events. 
+2013-09-16 21:16:01,320 - raxstat - raxstat.py:13 - INFO - *starting* 
+2013-09-16 21:16:01,325 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:16:01,325 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:13202 for new events. 
+2013-09-16 21:16:01,325 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:16:01,325 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:16:01,325 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1226 for new events. 
+2013-09-16 21:16:01,325 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1224 for new events. 
+2013-09-16 21:16:01,325 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1222 for new events. 
+2013-09-16 21:16:01,326 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:12201 for new events. 
+2013-09-16 21:16:01,326 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:12202 for new events. 
+2013-09-16 21:16:01,326 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1242 for new events. 
+2013-09-16 21:16:10,033 - raxstat - raxstat.py:13 - INFO - *starting* 
+2013-09-16 21:16:10,038 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:16:10,038 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:13202 for new events. 
+2013-09-16 21:16:10,039 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:16:10,039 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:16:10,039 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1226 for new events. 
+2013-09-16 21:16:10,039 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1224 for new events. 
+2013-09-16 21:16:10,039 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1222 for new events. 
+2013-09-16 21:16:10,039 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:12201 for new events. 
+2013-09-16 21:16:10,039 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:12202 for new events. 
+2013-09-16 21:16:10,039 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1242 for new events. 
+2013-09-16 21:16:26,396 - raxstat - raxstat.py:13 - INFO - *starting* 
+2013-09-16 21:16:26,401 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:16:26,401 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:13202 for new events. 
+2013-09-16 21:16:26,401 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:16:26,402 - raxstat - raxstat.py:81 - INFO - *listening* @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:16:26,402 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1226 for new events. 
+2013-09-16 21:16:26,402 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1224 for new events. 
+2013-09-16 21:16:26,402 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1222 for new events. 
+2013-09-16 21:16:26,402 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:12201 for new events. 
+2013-09-16 21:16:26,402 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:12202 for new events. 
+2013-09-16 21:16:26,402 - raxstat - raxstat.py:81 - INFO - *listening* @ localhost:1242 for new events. 
+2013-09-16 21:17:02,810 - raxstat - raxstat.py:13 - INFO - *starting* 
+2013-09-16 21:17:02,815 - raxstat - raxstat.py:81 - WARNING - *listening* @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:17:02,815 - raxstat - raxstat.py:81 - WARNING - *listening* @ localhost:13202 for new events. 
+2013-09-16 21:17:02,816 - raxstat - raxstat.py:81 - WARNING - *listening* @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:17:02,816 - raxstat - raxstat.py:81 - WARNING - *listening* @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:17:02,816 - raxstat - raxstat.py:81 - WARNING - *listening* @ localhost:1226 for new events. 
+2013-09-16 21:17:02,816 - raxstat - raxstat.py:81 - WARNING - *listening* @ localhost:1224 for new events. 
+2013-09-16 21:17:02,816 - raxstat - raxstat.py:81 - WARNING - *listening* @ localhost:1222 for new events. 
+2013-09-16 21:17:02,816 - raxstat - raxstat.py:81 - WARNING - *listening* @ localhost:12201 for new events. 
+2013-09-16 21:17:02,816 - raxstat - raxstat.py:81 - WARNING - *listening* @ localhost:12202 for new events. 
+2013-09-16 21:17:02,816 - raxstat - raxstat.py:81 - WARNING - *listening* @ localhost:1242 for new events. 
+2013-09-16 21:17:17,502 - raxstat - raxstat.py:13 - INFO - *starting* 
+2013-09-16 21:17:17,507 - raxstat - raxstat.py:81 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:17:17,507 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:17:17,507 - raxstat - raxstat.py:81 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:17:17,507 - raxstat - raxstat.py:81 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:17:17,507 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:17:17,507 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:17:17,507 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:17:17,507 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:17:17,507 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:17:17,508 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:17:57,595 - raxstat - raxstat.py:13 - WARNING - *starting* 
+2013-09-16 21:17:57,600 - raxstat - raxstat.py:81 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:17:57,600 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:17:57,601 - raxstat - raxstat.py:81 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:17:57,601 - raxstat - raxstat.py:81 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:17:57,601 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:17:57,601 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:17:57,601 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:17:57,601 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:17:57,601 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:17:57,601 - raxstat - raxstat.py:81 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:18:07,914 - raxstat - raxstat.py:13 - WARNING - *starting-up* 
+2013-09-16 21:18:07,921 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:18:07,921 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:18:07,921 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:18:07,922 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:18:07,922 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:18:07,922 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:18:07,922 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:18:07,922 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:18:07,922 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:18:07,922 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:18:31,766 - raxstat - raxstat.py:13 - WARNING - *launch!* 
+2013-09-16 21:18:31,772 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:18:31,773 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:18:31,773 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:18:31,773 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:18:31,773 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:18:31,773 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:18:31,773 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:18:31,774 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:18:31,774 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:18:31,774 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:18:37,030 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:18:37,037 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:18:37,037 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:18:37,037 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:18:37,037 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:18:37,037 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:18:37,038 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:18:37,038 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:18:37,038 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:18:37,038 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:18:37,038 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:24:32,488 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:25:23,078 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:25:58,099 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:26:00,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:26:00,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:26:00,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:26:00,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:26:00,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:26:00,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:26:00,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:26:00,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:26:00,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:26:00,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:26:44,096 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:26:44,264 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:26:44,264 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:26:44,265 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:26:44,265 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:26:44,265 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:26:44,265 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:26:44,265 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:26:44,265 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:26:44,265 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:26:44,265 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:26:51,233 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:26:51,398 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:26:51,398 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:26:51,398 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:26:51,399 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:26:51,399 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:26:51,399 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:26:51,399 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:26:51,399 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:26:51,399 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:26:51,399 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 

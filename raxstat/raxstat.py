@@ -10,11 +10,10 @@ elif  CONFIG['log']['level'].lower() == 'info': loglevel = logging.INFO
 elif  CONFIG['log']['level'].lower() == 'notice': loglevel = logging.NOTICE
 elif  CONFIG['log']['level'].lower() == 'critical': loglevel = logging.CRITICAL
 import logclass; ohai = logclass.instance('raxstat',CONFIG['log']['level'],loglevel,logging.DEBUG)
-logger = logging.getLogger("raxstat"); logger.debug('*startup*')
+logger = logging.getLogger("raxstat"); logger.warning('*launch*')
 # ---------------------------------------------------------------------------------------------------
 # Event handling stack. Calls all the other classes out of the toybox to do stuff.
 import eventhandle
-
 
 import os, fcntl, struct
 import asyncore, socket, json, zlib
@@ -67,17 +66,18 @@ class gelfTransmitter():
         return ip
 
 class AsyncoreServerUDP(asyncore.dispatcher):
-    def __init__(self,port=12201,config=None):
+    def __init__(self,host='localhost',port=12201,config=None):
         self.config = config
         self.port = port
+        self.host = host
         asyncore.dispatcher.__init__(self)
         # Bind to port 5005 on all interfaces
         self.create_socket(socket.AF_INET, socket.SOCK_DGRAM)
-        self.bind(('', int(port)))
+        self.bind((host, int(port)))
 
    # Even though UDP is connectionless this is called when it binds to a port
     def handle_connect(self):
-        logger.info( "*listen* @ localhost:" +str(self.port))
+        logger.warn( "I am listening @ "+ self.host+":" +str(self.port) + " for new events.")
 
    # This is called everytime there is something to read
     def handle_read(self):
@@ -96,6 +96,8 @@ class AsyncoreServerUDP(asyncore.dispatcher):
 
 for listen,config in CONFIG['gigs'].items():
         (host,port) = listen.split(':')
-        AsyncoreServerUDP(port=port,config=config)
+        AsyncoreServerUDP(host=host,port=port,config=config)
 
 asyncore.loop()
+
+

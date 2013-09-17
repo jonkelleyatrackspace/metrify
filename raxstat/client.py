@@ -62,7 +62,7 @@ class AsyncoreClientUDP(asyncore.dispatcher):
          sent = self.sendto(message, (self.server, self.port))
          self.buffer = self.buffer[sent:]
 
-connection = AsyncoreClientUDP("127.0.0.1",12201) # create the "connection"
+connection = AsyncoreClientUDP("127.0.0.1",12202) # create the "connection"
 while 1:
    asyncore.loop(count = 10) # Check for upto 10 packets this call?
    connection.buffer += raw_input(" GELF > ") # raw_input (this is a blocking call)
