@@ -12,11 +12,10 @@ elif  CONFIG['log']['level'].lower() == 'critical': loglevel = logging.CRITICAL
 import logclass; ohai = logclass.instance('raxstat',CONFIG['log']['level'],loglevel,logging.DEBUG)
 logger = logging.getLogger("raxstat"); logger.debug('*startup*')
 # ---------------------------------------------------------------------------------------------------
+# Event handling stack. Calls all the other classes out of the toybox to do stuff.
+import eventhandle
 
-for i in CONFIG:
-    print i
-import json
-logger.debug(json.dumps(CONFIG, indent=3))
+
 import os, fcntl, struct
 import asyncore, socket, json, zlib
 class gelfTransmitter():
@@ -68,42 +67,35 @@ class gelfTransmitter():
         return ip
 
 class AsyncoreServerUDP(asyncore.dispatcher):
-    def __init__(self):
-        logger.debug('*asyncore.start*')
+    def __init__(self,port=12201,config=None):
+        self.config = config
+        self.port = port
         asyncore.dispatcher.__init__(self)
-
         # Bind to port 5005 on all interfaces
         self.create_socket(socket.AF_INET, socket.SOCK_DGRAM)
-
-        print CONFIG['gigs']
-        for listen,v in CONFIG['gigs'].items():
-            self.listen = listen
-            (host,port) = listen.split(':')
-            port = int(port)
-            self.bind((host,port))
-        
-        
+        self.bind(('', int(port)))
 
    # Even though UDP is connectionless this is called when it binds to a port
     def handle_connect(self):
-        logger.info('Listening @ ' + self.listen )
+        logger.info( "*listen* @ localhost:" +str(self.port))
 
    # This is called everytime there is something to read
     def handle_read(self):
-        self.data, self.addr = self.recvfrom(2048)
-        self.handle_repeater()
-        print str(self.addr)+" >> "+self.data
+        self.compressed_packet, self.addr = self.recvfrom(2048)
+        self.data = json.loads(zlib.decompress(self.compressed_packet))
+        self.data = json.loads(self.data)
+        self.handle_event()
+        # Logs event if in debug mode.
+        logger.debug ( "DST:localhost:" + str(self.port) + ", SRC:" + str(self.addr[0])+":"+str(self.addr[1])+" >>PAYLOAD>> "+json.dumps(self.data,indent=0))
 
-    def handle_repeater(self):
-        pass
-        graylog = gelfTransmitter()
-        ###graylog.log(json.dumps(self.data))  == to a real graylog host
-        graylog.log(self.data)
-
+    def handle_event(self):
+        handle = eventhandle.event(self.config,self.data)
    # This is called all the time and causes errors if you leave it out.
     def handle_write(self):
-        pass
+        pass # has to exist
 
+for listen,config in CONFIG['gigs'].items():
+        (host,port) = listen.split(':')
+        AsyncoreServerUDP(port=port,config=config)
 
-AsyncoreServerUDP()
 asyncore.loop()

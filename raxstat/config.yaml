@@ -1,6 +1,56 @@
 logging: {file : '/tmp/raxstat.log' , level: DEBUG }
 gigs:
-  - listen: 'localhost:9993'
+  - listen: 'localhost:12201'
+    outputs:
+        graphite:
+            - {project: 'test19' , host: 'graphite1:1929'}
+            - {project: 'test19' , host: 'graphite2:1929'}
+        riemann:
+            - {host: 'riemann1:100'}
+            - {host: 'riemann2:200'}
+        udprepeater:
+            - {host: 'udp1:699'}
+  - listen: 'localhost:12202'
+    outputs:
+        graphite:
+            - {project: 'test19' , host: 'localhost:1929'}
+            - {project: 'test19' , host: 'remote:1929'}
+        riemann:
+            - {host: 'localhost:100'}
+            - {host: 'remote:200'}
+        udprepeater:
+            - {host: 'localhost:699'}
+  - listen: 'localhost:1242'
+    outputs:
+        graphite:
+            - {project: 'test19' , host: 'localhost:1929'}
+            - {project: 'test19' , host: 'remote:1929'}
+        riemann:
+            - {host: 'localhost:100'}
+            - {host: 'remote:200'}
+        udprepeater:
+            - {host: 'localhost:699'}
+  - listen: 'localhost:13202'
+    outputs:
+        graphite:
+            - {project: 'test19' , host: 'localhost:1929'}
+            - {project: 'test19' , host: 'remote:1929'}
+        riemann:
+            - {host: 'localhost:100'}
+            - {host: 'remote:200'}
+        udprepeater:
+            - {host: 'localhost:699'}
+  - listen: 'localhost:1221'
+    outputs:
+        graphite:
+            - {project: 'test19' , host: 'localhost:1929'}
+            - {project: 'test19' , host: 'remote:1929'}
+        riemann:
+            - {host: 'localhost:100'}
+            - {host: 'remote:200'}
+        udprepeater:
+            - {host: 'localhost:699'}
+  - listen: 'localhost:1222'
     outputs:
         graphite:
             - {project: 'test19' , host: 'localhost:1929'}
