@@ -1,6 +1,7 @@
 # Suppose to receive events and then send them out to the protocol level classes.
-import logging; logger = logging.getLogger("raxstat") 
-import backends
+import logging
+logger = logging.getLogger("raxstat") 
+import preampOut
 
 class event(object):
     """ Handles events and data payloads from raxstats and sends them off to the respective services based on config
@@ -20,24 +21,39 @@ class event(object):
 
     def riemannEvent(self,fromAddress,destination,payload):
         fromAddress = str(fromAddress[0])+":"+str(fromAddress[1])
-
         endpoint = payload['ept']+"."+payload['eprt']
         statusCode = int(payload['rc'])
         responseLen = int(payload['rl'])
         responseTook = int(payload['tt'])
-        if int(responseTook) <= 2:
+
+        ###########################################################
+        # Sends latency metrics.
+
+        if int(responseTook) <= 1:
             COLOR = 'green'
-        elif int(responseTook) > 2 and int(responseTook) <= 4:
+        elif int(responseTook) > 1 and int(responseTook) <= 4:
             COLOR = 'yellow'
         elif int(responseTook) > 4:
             COLOR = 'red'
+            
+        logging.debug('Color =' + COLOR)
 
-        riemann = backends.riemannevent()
+        riemann = preampOut.riemannevent()
         name = "latency." + str(endpoint)
-        COLOR = 'green'
-        riemann.post(destination,host=fromAddress,service=name,state=COLOR,description='Endpoint latency',metric_f=responseTook)
-        """ Generates a riemann event for this particular gig """
-        logger.debug("output(riemann)-->" + destination)
+        riemann.post(destination,host=fromAddress,service=name,state=COLOR,description='Endpoint Latency',metric_f=1)
+        logger.debug("output.riemann.latency:"+endpoint+" -->" + destination)
+        ###########################################################
+        # Sends statuscode metrics.
+        if int(statusCode) in [200]:
+            COLOR = 'green'
+        else:
+            COLOR = 'red'
+
+        riemann = preampOut.riemannevent()
+        name = "statuscode." + str(endpoint)
+        riemann.post(destination,host=fromAddress,service=name,state=COLOR,description='Status Code',metric_f=1)
+        logger.debug("output.riemann.statcode:"+endpoint+" -->" + destination)
+        return
         
     def graphiteEvent(self,destination,payload):
         """ Generates a riemann event for this particular gig """

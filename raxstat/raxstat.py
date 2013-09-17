@@ -1,16 +1,40 @@
 #!/usr/bin/env python
+
+# ---------------------------------------------------------------------------------------------------
+# Logging is the only thing that should work if nothing else. That is why it is prominent.
 # ---------------------------------------------------------------------------------------------------
 # Logging magic. If nothing else, basic logging _WILL WORK_
-import config,logging
+import logging
+import config
+logconfdict = config.context().logger()
+INSTANCE_NAME = logconfdict['name']
+LOG_OUTFILE = logconfdict['filename']
+LOG_FILELEVEL= logconfdict['filelevel']
+LOG_STDLEVEL = logging.INFO
+
+# Logger.
+logger = logging.getLogger(INSTANCE_NAME)
+logger.setLevel(logging.DEBUG)
+# File handle.
+fh = logging.FileHandler(LOG_OUTFILE)
+fh.setLevel(LOG_FILELEVEL)
+# Console handle.
+ch = logging.StreamHandler()
+ch.setLevel(LOG_STDLEVEL) 
+# Apply logformat.
+#formatter = logging.Formatter('%(asctime)s - %(name)s - %(filename)s:%(lineno)d - %(levelname)s - %(message)s - PID: %(process)d  ' )
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(filename)s:%(lineno)d - %(levelname)s - %(message)s ' )
+fh.setFormatter(formatter)
+ch.setFormatter(formatter)
+# Add handdler to logger instance.
+logger.addHandler(fh)
+logger.addHandler(ch)
+logger.warning('*START*')
+
 CONFIG = config.context().get()
-# ---
-if CONFIG['log']['level'].lower() == 'debug': loglevel = logging.DEBUG
-elif  CONFIG['log']['level'].lower() == 'warn': loglevel = logging.WARN
-elif  CONFIG['log']['level'].lower() == 'info': loglevel = logging.INFO
-elif  CONFIG['log']['level'].lower() == 'notice': loglevel = logging.NOTICE
-elif  CONFIG['log']['level'].lower() == 'critical': loglevel = logging.CRITICAL
-import logclass; ohai = logclass.instance('raxstat',CONFIG['log']['level'],loglevel,logging.DEBUG)
-logger = logging.getLogger("raxstat"); logger.warning('*launch*')
+
+
+
 # ---------------------------------------------------------------------------------------------------
 # Event handling stack. Calls all the other classes out of the toybox to do stuff.
 import eventhandle
@@ -77,8 +101,13 @@ class AsyncoreServerUDP(asyncore.dispatcher):
 
    # Even though UDP is connectionless this is called when it binds to a port
     def handle_connect(self):
-        logger.warn( "I am listening @ "+ self.host+":" +str(self.port) + " for new events.")
+        logger.warn( "Now Listening (async) for Datagram @ "+ self.host+":" +str(self.port) + " (udp)")
 
+    def handle_error(self):
+        try:
+            raise
+        except:
+            logger.fatal('I just thought you should know there was an EXCEPTION!', exc_info=True)
    # This is called everytime there is something to read
     def handle_read(self):
         self.compressed_packet, self.sourceAddr = self.recvfrom(2048)
@@ -100,5 +129,4 @@ for listen,config in CONFIG['gigs'].items():
         AsyncoreServerUDP(host=host,port=port,config=config)
 
 asyncore.loop()
-
 

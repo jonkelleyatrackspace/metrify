@@ -1,4 +1,4 @@
-logging: {file : '/tmp/raxstat.log' , level: DEBUG }
+logging: {file : '/tmp/raxstat.log' , filelevel: DEBUG }
 gigs:
   - listen: 'localhost:12201'
     outputs:
@@ -6,8 +6,8 @@ gigs:
             - {project: 'test19' , host: 'graphite1:1929'}
             - {project: 'test19' , host: 'graphite2:1929'}
         riemann:
-            - {host: 'riemann1:100'}
-            - {host: 'riemann2:200'}
+            - {host: '127.0.0.1:100'}
+            - {host: '127.0.0.1:200'}
         udprepeater:
             - {host: 'udp1:699'}
   - listen: 'localhost:12202'

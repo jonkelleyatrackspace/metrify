@@ -1,5 +1,7 @@
 import yaml, json
-import logging; logger = logging.getLogger("raxstat") 
+import logging
+logger = logging.getLogger("raxstat") 
+
 
 class context(object):
     """ Possibly have a write config option added? """
@@ -22,7 +24,7 @@ class context(object):
         
         # Grab log levels
         outDict['log'] = {}
-        (outDict['log']['file'], outDict['log']['level']) = (config['logging']['file'], config['logging']['level'])
+        (outDict['log']['file'], outDict['log']['filelevel']) = (config['logging']['file'], config['logging']['filelevel'])
 
         # Grab the system config.
         gigs = config['gigs']
@@ -38,4 +40,13 @@ class context(object):
 
         logger.debug( json.dumps(outDict,indent=1) )
         return outDict
+    def logger(self):
+        """ Returns a dict that configures your logger on startup. """
+        CONFIG = self.get()
+        if CONFIG['log']['filelevel'].lower() == 'debug': loglevel = logging.DEBUG
+        elif CONFIG['log']['filelevel'].lower() == 'warn': loglevel = logging.WARN
+        elif CONFIG['log']['filelevel'].lower() == 'info': loglevel = logging.INFO
+        elif CONFIG['log']['filelevel'].lower() == 'notice': loglevel = logging.NOTICE
+        elif CONFIG['log']['filelevel'].lower() == 'critical': loglevel = logging.CRITICAL
+        return {'name' : 'raxstat' , 'filename' : CONFIG['log']['file'] , 'filelevel' : CONFIG['log']['filelevel']}
 
