@@ -10,7 +10,7 @@ logconfdict = config.context().logger()
 INSTANCE_NAME = logconfdict['name']
 LOG_OUTFILE = logconfdict['filename']
 LOG_FILELEVEL= logconfdict['filelevel']
-LOG_STDLEVEL = logging.INFO
+LOG_STDLEVEL = logconfdict['consolelevel']
 
 # Logger.
 logger = logging.getLogger(INSTANCE_NAME)
@@ -29,7 +29,7 @@ ch.setFormatter(formatter)
 # Add handdler to logger instance.
 logger.addHandler(fh)
 logger.addHandler(ch)
-logger.warning('*START*')
+logger.warning('*!*!*!*!*!*!*!*!*!*! START *!*!*!*!*!*!*!*!*!*! ')
 
 CONFIG = config.context().get()
 

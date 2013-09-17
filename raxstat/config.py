@@ -24,7 +24,7 @@ class context(object):
         
         # Grab log levels
         outDict['log'] = {}
-        (outDict['log']['file'], outDict['log']['filelevel']) = (config['logging']['file'], config['logging']['filelevel'])
+        (outDict['log']['file'], outDict['log']['filelevel'], outDict['log']['consolelevel']) = (config['logging']['file'], config['logging']['filelevel'],config['logging']['consolelevel'])
 
         # Grab the system config.
         gigs = config['gigs']
@@ -38,7 +38,7 @@ class context(object):
             outDict['gigs'][listener]['udprepeatOuts'] = gig['outputs'].get('udprepeater',None)
             outDict['gigs'][listener]['unimplementedOuts'] = gig['outputs'].get('lol',None)
 
-        logger.debug( json.dumps(outDict,indent=1) )
+        logger.debug( "CONFIG_DUMP" + json.dumps(outDict,indent=1) )
         return outDict
     def logger(self):
         """ Returns a dict that configures your logger on startup. """
@@ -48,5 +48,5 @@ class context(object):
         elif CONFIG['log']['filelevel'].lower() == 'info': loglevel = logging.INFO
         elif CONFIG['log']['filelevel'].lower() == 'notice': loglevel = logging.NOTICE
         elif CONFIG['log']['filelevel'].lower() == 'critical': loglevel = logging.CRITICAL
-        return {'name' : 'raxstat' , 'filename' : CONFIG['log']['file'] , 'filelevel' : CONFIG['log']['filelevel']}
+        return {'name' : 'raxstat' , 'filename' : CONFIG['log']['file'] , 'filelevel' : CONFIG['log']['filelevel'], 'consolelevel' : CONFIG['log']['consolelevel']}
 

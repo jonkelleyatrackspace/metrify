@@ -1,4 +1,4 @@
-logging: {file : '/tmp/raxstat.log' , filelevel: DEBUG }
+logging: {file : '/tmp/raxstat.log' , filelevel: DEBUG, consolelevel: DEBUG }
 gigs:
   - listen: 'localhost:12201'
     outputs:
