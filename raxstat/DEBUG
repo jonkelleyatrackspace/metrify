@@ -4874,3 +4874,14 @@
 2013-09-16 22:13:30,652 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
 2013-09-16 22:13:30,652 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
 2013-09-16 22:13:30,652 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:14:59,909 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:15:00,087 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:15:00,088 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:15:00,088 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:15:00,088 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:15:00,088 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:15:00,088 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:15:00,088 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:15:00,088 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:15:00,089 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:15:00,089 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
