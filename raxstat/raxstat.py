@@ -81,15 +81,16 @@ class AsyncoreServerUDP(asyncore.dispatcher):
 
    # This is called everytime there is something to read
     def handle_read(self):
-        self.compressed_packet, self.addr = self.recvfrom(2048)
+        self.compressed_packet, self.sourceAddr = self.recvfrom(2048)
         self.data = json.loads(zlib.decompress(self.compressed_packet))
         self.data = json.loads(self.data)
         self.handle_event()
         # Logs event if in debug mode.
-        logger.debug ( "DST:localhost:" + str(self.port) + ", SRC:" + str(self.addr[0])+":"+str(self.addr[1])+" >>PAYLOAD>> "+json.dumps(self.data,indent=0))
+        logger.debug ( "DST:localhost:" + str(self.port) + ", SRC:" + str(self.sourceAddr[0])+":"+str(self.sourceAddr[1])+" >>PAYLOAD>> "+json.dumps(self.data,indent=0))
 
     def handle_event(self):
-        handle = eventhandle.event(self.config,self.data)
+        handle = eventhandle.event(self.sourceAddr,self.config,self.data)
+
    # This is called all the time and causes errors if you leave it out.
     def handle_write(self):
         pass # has to exist

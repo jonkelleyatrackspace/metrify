@@ -4265,3 +4265,612 @@
 2013-09-16 21:26:51,399 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
 2013-09-16 21:26:51,399 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
 2013-09-16 21:26:51,399 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:27:28,458 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:27:28,686 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:27:28,687 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:27:28,687 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:27:28,687 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:27:28,687 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:27:28,688 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:27:28,688 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:27:28,688 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:27:28,688 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:27:28,689 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:27:43,081 - raxstat - eventhandle.py:27 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:27:43,082 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:41593 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "ss", 
+"eprt": "443"
+} 
+2013-09-16 21:27:47,286 - raxstat - eventhandle.py:27 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:27:47,286 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:41593 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "333", 
+"eprt": "443"
+} 
+2013-09-16 21:29:36,063 - raxstat - eventhandle.py:27 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:29:36,063 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "ee", 
+"eprt": "443"
+} 
+2013-09-16 21:29:49,845 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:29:50,025 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:29:50,025 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:29:50,025 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:29:50,025 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:29:50,025 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:29:50,025 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:29:50,025 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:29:50,025 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:29:50,025 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:29:50,025 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:29:51,420 - raxstat - eventhandle.py:28 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:29:51,420 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "s", 
+"eprt": "443"
+} 
+2013-09-16 21:30:07,788 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:30:07,956 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:30:07,956 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:30:07,956 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:30:07,956 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:30:07,956 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:30:07,957 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:30:07,957 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:30:07,957 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:30:07,957 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:30:07,957 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:30:08,767 - raxstat - eventhandle.py:28 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:30:08,767 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "s", 
+"eprt": "443"
+} 
+2013-09-16 21:33:36,376 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:33:36,589 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:33:36,589 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:33:36,589 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:33:36,589 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:33:36,589 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:33:36,589 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:33:36,589 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:33:36,589 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:33:36,590 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:33:36,590 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:34:18,877 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:34:19,122 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:34:19,123 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:34:19,123 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:34:19,123 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:34:19,123 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:34:19,123 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:34:19,123 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:34:19,124 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:34:19,124 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:34:19,124 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:34:37,507 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:34:37,669 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:34:37,669 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:34:37,669 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:34:37,669 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:34:37,669 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:34:37,670 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:34:37,670 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:34:37,670 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:34:37,670 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:34:37,670 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:34:48,871 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:34:49,114 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:34:49,115 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:34:49,115 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:34:49,115 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:34:49,115 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:34:49,115 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:34:49,115 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:34:49,115 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:34:49,116 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:34:49,116 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:34:49,956 - raxstat - eventhandle.py:31 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:34:49,957 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "s", 
+"eprt": "443"
+} 
+2013-09-16 21:36:09,398 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:36:09,611 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:36:09,611 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:36:09,611 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:36:09,611 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:36:09,611 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:36:09,611 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:36:09,611 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:36:09,612 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:36:09,612 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:36:09,612 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:36:26,453 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:36:26,630 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:36:26,630 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:36:26,630 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:36:26,630 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:36:26,630 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:36:26,630 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:36:26,630 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:36:26,631 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:36:26,631 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:36:26,631 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:37:22,171 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:37:26,003 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:37:26,196 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:37:26,196 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:37:26,196 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:37:26,196 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:37:26,196 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:37:26,196 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:37:26,196 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:37:26,196 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:37:26,196 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:37:26,197 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:38:15,677 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:38:21,261 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:38:31,929 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:38:45,068 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:38:52,621 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:39:06,712 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:39:14,241 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:39:46,147 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:52:33,333 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:52:51,236 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:52:51,417 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:52:51,417 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:52:51,417 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:52:51,417 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:52:51,417 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:52:51,417 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:52:51,417 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:52:51,417 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:52:51,417 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:52:51,418 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:53:15,090 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:53:15,301 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:53:15,301 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:53:15,302 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:53:15,302 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:53:15,302 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:53:15,302 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:53:15,302 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:53:15,302 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:53:15,303 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:53:15,303 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:53:36,659 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:53:36,845 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:53:36,845 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:53:36,845 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:53:36,846 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:53:36,846 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:53:36,846 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:53:36,846 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:53:36,846 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:53:36,846 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:53:36,846 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:53:58,380 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:53:58,562 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:53:58,562 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:53:58,562 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:53:58,563 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:53:58,563 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:53:58,563 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:53:58,563 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:53:58,563 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:53:58,563 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:53:58,563 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:53:59,880 - raxstat - eventhandle.py:32 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:53:59,880 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} 
+2013-09-16 21:54:28,360 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:54:28,556 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:54:28,557 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:54:28,557 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:54:28,557 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:54:28,557 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:54:28,557 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:54:28,557 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:54:28,558 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:54:28,558 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:54:28,558 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:54:29,594 - raxstat - eventhandle.py:32 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:54:29,595 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} 
+2013-09-16 21:54:57,617 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:54:57,804 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:54:57,804 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:54:57,804 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:54:57,804 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:54:57,804 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:54:57,805 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:54:57,805 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:54:57,805 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:54:57,805 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:54:57,805 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:55:04,586 - raxstat - eventhandle.py:32 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:55:04,587 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "ss", 
+"eprt": "443"
+} 
+2013-09-16 21:55:34,571 - raxstat - eventhandle.py:32 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:55:34,571 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "ee", 
+"eprt": "443"
+} 
+2013-09-16 21:55:52,127 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:55:52,349 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:55:52,350 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:55:52,350 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:55:52,350 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:55:52,350 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:55:52,350 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:55:52,350 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:55:52,350 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:55:52,350 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:55:52,351 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:55:53,398 - raxstat - eventhandle.py:32 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:55:53,399 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} 
+2013-09-16 21:56:08,239 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:56:08,421 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:56:08,421 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:56:08,421 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:56:08,421 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:56:08,421 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:56:08,421 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:56:08,421 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:56:08,422 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:56:08,422 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:56:08,422 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:56:09,406 - raxstat - eventhandle.py:33 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:56:09,407 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} 
+2013-09-16 21:56:27,320 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:56:27,506 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:56:27,506 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:56:27,507 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:56:27,507 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:56:27,507 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:56:27,507 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:56:27,507 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:56:27,507 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:56:27,507 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:56:27,507 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:56:28,822 - raxstat - eventhandle.py:33 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:56:28,822 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} 
+2013-09-16 21:56:59,738 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:56:59,926 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:56:59,926 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:56:59,926 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:56:59,926 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:56:59,926 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:56:59,926 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:56:59,926 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:56:59,927 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:56:59,927 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:56:59,927 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:57:00,957 - raxstat - eventhandle.py:34 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:57:00,957 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} 
+2013-09-16 21:58:09,639 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:58:09,819 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:58:09,819 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:58:09,819 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:58:09,820 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:58:09,820 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:58:09,820 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:58:09,820 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:58:09,820 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:58:09,820 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:58:09,820 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:58:11,496 - raxstat - eventhandle.py:33 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:58:11,496 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "ee", 
+"eprt": "443"
+} 
+2013-09-16 21:58:32,423 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:58:32,610 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:58:32,610 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:58:32,610 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:58:32,610 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:58:32,610 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:58:32,610 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:58:32,610 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:58:32,611 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:58:32,611 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:58:32,611 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:58:33,800 - raxstat - eventhandle.py:33 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:58:33,800 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} 
+2013-09-16 21:59:12,856 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 21:59:13,031 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 21:59:13,031 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 21:59:13,032 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 21:59:13,032 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 21:59:13,032 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 21:59:13,032 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 21:59:13,032 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 21:59:13,032 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 21:59:13,033 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 21:59:13,033 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 21:59:14,308 - raxstat - eventhandle.py:32 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:59:14,308 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "ee", 
+"eprt": "443"
+} 
+2013-09-16 21:59:48,995 - raxstat - eventhandle.py:32 - DEBUG - output(graphite)-->localhost:1929 
+2013-09-16 21:59:48,995 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12202, SRC:127.0.0.1:52232 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "ss", 
+"eprt": "443"
+} 
+2013-09-16 22:00:15,002 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:00:15,177 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:00:15,177 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:00:15,177 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:00:15,177 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:00:15,177 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:00:15,177 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:00:15,178 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:00:15,178 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:00:15,178 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:00:15,178 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:00:16,068 - raxstat - eventhandle.py:27 - DEBUG - output(riemann)-->riemann1:100 
+2013-09-16 22:00:16,069 - raxstat - eventhandle.py:27 - DEBUG - output(riemann)-->riemann2:200 
+2013-09-16 22:00:16,069 - raxstat - eventhandle.py:32 - DEBUG - output(graphite)-->graphite1:1929 
+2013-09-16 22:00:16,069 - raxstat - eventhandle.py:32 - DEBUG - output(graphite)-->graphite2:1929 
+2013-09-16 22:00:16,069 - raxstat - eventhandle.py:36 - DEBUG - output(udp)-->udp1:699 
+2013-09-16 22:00:16,069 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:39426 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} 
+2013-09-16 22:00:41,866 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:00:52,655 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:00:52,851 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:00:52,851 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:00:52,851 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:00:52,852 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:00:52,852 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:00:52,852 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:00:52,852 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:00:52,852 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:00:52,853 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:00:52,853 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:00:53,716 - raxstat - eventhandle.py:27 - DEBUG - output(riemann)-->riemann1:100 
+2013-09-16 22:00:53,716 - raxstat - eventhandle.py:27 - DEBUG - output(riemann)-->riemann2:200 
+2013-09-16 22:00:53,716 - raxstat - eventhandle.py:32 - DEBUG - output(graphite)-->graphite1:1929 
+2013-09-16 22:00:53,717 - raxstat - eventhandle.py:32 - DEBUG - output(graphite)-->graphite2:1929 
+2013-09-16 22:00:53,717 - raxstat - eventhandle.py:36 - DEBUG - output(udp)-->udp1:699 
+2013-09-16 22:00:53,717 - raxstat - raxstat.py:89 - DEBUG - DST:localhost:12201, SRC:127.0.0.1:39426 >>PAYLOAD>> {
+"rl": "0", 
+"ept": "identity.api.rackspacecloud.com", 
+"rc": "200", 
+"tt": "e", 
+"eprt": "443"
+} 
+2013-09-16 22:08:44,325 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:08:44,512 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:08:44,512 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:08:44,512 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:08:44,512 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:08:44,512 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:08:44,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:08:44,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:08:44,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:08:44,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:08:44,513 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:08:53,748 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:08:53,945 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:08:53,945 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:08:53,945 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:08:53,945 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:08:53,945 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:08:53,946 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:08:53,946 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:08:53,946 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:08:53,946 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:08:53,946 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:09:44,813 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:09:45,012 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:09:45,013 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:09:45,013 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:09:45,013 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:09:45,013 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:09:45,013 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:09:45,013 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:09:45,014 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:09:45,014 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:09:45,014 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:10:09,884 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:10:10,055 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:10:10,055 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:10:10,055 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:10:10,056 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:10:10,056 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:10:10,056 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:10:10,056 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:10:10,056 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:10:10,056 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:10:10,056 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:10:18,341 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:10:18,502 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:10:18,502 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:10:18,503 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:10:18,503 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:10:18,503 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:10:18,503 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:10:18,503 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:10:18,503 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:10:18,503 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:10:18,504 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:10:34,217 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:10:34,393 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:10:34,393 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:10:34,393 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:10:34,393 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:10:34,393 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:10:34,393 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:10:34,394 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:10:34,394 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:10:34,394 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:10:34,394 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:10:38,111 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:10:38,283 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:10:38,284 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:10:38,284 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:10:38,284 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:10:38,284 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:10:38,284 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:10:38,284 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:10:38,284 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:10:38,284 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:10:38,284 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:10:42,773 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:10:42,947 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:10:42,947 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:10:42,947 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:10:42,947 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:10:42,947 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:10:42,947 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:10:42,948 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:10:42,948 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:10:42,948 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:10:42,948 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:11:14,564 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:11:14,744 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:11:14,744 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:11:14,745 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:11:14,745 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:11:14,745 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:11:14,745 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:11:14,745 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:11:14,745 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:11:14,745 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:11:14,745 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:11:32,479 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:11:32,661 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:11:32,661 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:11:32,661 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:11:32,661 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:11:32,661 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:11:32,661 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:11:32,662 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:11:32,662 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:11:32,662 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:11:32,662 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:11:47,937 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:11:53,112 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:11:53,287 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:11:53,287 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:11:53,287 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:11:53,288 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:11:53,288 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:11:53,288 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:11:53,288 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:11:53,288 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:11:53,288 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:11:53,288 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:12:04,761 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:12:04,965 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:12:04,966 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:12:04,966 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:12:04,966 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:12:04,966 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:12:04,966 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:12:04,967 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:12:04,967 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:12:04,967 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:12:04,967 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:12:18,162 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:12:18,352 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:12:18,352 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:12:18,352 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:12:18,353 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:12:18,353 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:12:18,353 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:12:18,353 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:12:18,353 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:12:18,353 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:12:18,353 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
+2013-09-16 22:13:30,443 - raxstat - raxstat.py:13 - WARNING - *launch* 
+2013-09-16 22:13:30,651 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1223 for new events. 
+2013-09-16 22:13:30,651 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:13202 for new events. 
+2013-09-16 22:13:30,652 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1221 for new events. 
+2013-09-16 22:13:30,652 - raxstat - raxstat.py:80 - WARNING - I am listening @ 127.1.1.1:1225 for new events. 
+2013-09-16 22:13:30,652 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1226 for new events. 
+2013-09-16 22:13:30,652 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1224 for new events. 
+2013-09-16 22:13:30,652 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1222 for new events. 
+2013-09-16 22:13:30,652 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12201 for new events. 
+2013-09-16 22:13:30,652 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:12202 for new events. 
+2013-09-16 22:13:30,652 - raxstat - raxstat.py:80 - WARNING - I am listening @ localhost:1242 for new events. 
