@@ -11,6 +11,8 @@ class context(object):
         """
         filehandle = file(self.filename, 'r')
         return yaml.load(filehandle)
+    def set(self,inputDict):
+        pass
     def get(self):
         """ This returns a dictionary representation of config, for easy
         use by the rest of this app. """
@@ -21,6 +23,7 @@ class context(object):
         outDict['log'] = {}
         (outDict['log']['file'], outDict['log']['level']) = (config['logging']['file'], config['logging']['level'])
 
+        # Grab the system config.
         gigs = config['gigs']
         outDict['gigs'] = {} 
         for gig in gigs:
@@ -34,6 +37,4 @@ class context(object):
 
         logger.debug( json.dumps(outDict,indent=1) )
         return outDict
-if __name__ == '__main__':
-    c = context()
-    c.get()
+

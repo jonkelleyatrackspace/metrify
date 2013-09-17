@@ -1992,3 +1992,114 @@
 } - PID: 6045  
 2013-09-16 19:10:01,702 - raxstat - endpointprocessor.py:72 - DEBUG - *asyncore.start* - PID: 6045  
 2013-09-16 19:10:01,703 - raxstat - endpointprocessor.py:89 - INFO - Listening @ localhost:9993 - PID: 6045  
+2013-09-16 19:18:40,237 - raxstat - endpointprocessor.py:13 - DEBUG - *startup* - PID: 6220  
+2013-09-16 19:18:40,238 - raxstat - endpointprocessor.py:19 - DEBUG - {
+   "log": {
+      "file": "/tmp/raxstat.log", 
+      "level": "DEBUG"
+   }, 
+   "gigs": {
+      "localhost:9993": {
+         "riemannOuts": [
+            {
+               "host": "localhost:100"
+            }, 
+            {
+               "host": "remote:200"
+            }
+         ], 
+         "unimplementedOuts": null, 
+         "udprepeatOuts": [
+            {
+               "host": "localhost:699"
+            }
+         ], 
+         "graphiteOuts": [
+            {
+               "project": "test19", 
+               "host": "localhost:1929"
+            }, 
+            {
+               "project": "test19", 
+               "host": "remote:1929"
+            }
+         ]
+      }
+   }
+} - PID: 6220  
+2013-09-16 19:18:40,241 - raxstat - endpointprocessor.py:72 - DEBUG - *asyncore.start* - PID: 6220  
+2013-09-16 19:18:40,242 - raxstat - endpointprocessor.py:89 - INFO - Listening @ localhost:9993 - PID: 6220  
+2013-09-16 19:18:52,340 - raxstat - endpointprocessor.py:13 - DEBUG - *startup* - PID: 6228  
+2013-09-16 19:18:52,340 - raxstat - endpointprocessor.py:19 - DEBUG - {
+   "log": {
+      "file": "/tmp/raxstat.log", 
+      "level": "DEBUG"
+   }, 
+   "gigs": {
+      "localhost:9993": {
+         "riemannOuts": [
+            {
+               "host": "localhost:100"
+            }, 
+            {
+               "host": "remote:200"
+            }
+         ], 
+         "unimplementedOuts": null, 
+         "udprepeatOuts": [
+            {
+               "host": "localhost:699"
+            }
+         ], 
+         "graphiteOuts": [
+            {
+               "project": "test19", 
+               "host": "localhost:1929"
+            }, 
+            {
+               "project": "test19", 
+               "host": "remote:1929"
+            }
+         ]
+      }
+   }
+} - PID: 6228  
+2013-09-16 19:18:52,344 - raxstat - endpointprocessor.py:72 - DEBUG - *asyncore.start* - PID: 6228  
+2013-09-16 19:18:52,345 - raxstat - endpointprocessor.py:89 - INFO - Listening @ localhost:9993 - PID: 6228  
+2013-09-16 19:19:12,748 - raxstat - raxstat.py:13 - DEBUG - *startup* - PID: 6241  
+2013-09-16 19:19:12,748 - raxstat - raxstat.py:19 - DEBUG - {
+   "log": {
+      "file": "/tmp/raxstat.log", 
+      "level": "DEBUG"
+   }, 
+   "gigs": {
+      "localhost:9993": {
+         "riemannOuts": [
+            {
+               "host": "localhost:100"
+            }, 
+            {
+               "host": "remote:200"
+            }
+         ], 
+         "unimplementedOuts": null, 
+         "udprepeatOuts": [
+            {
+               "host": "localhost:699"
+            }
+         ], 
+         "graphiteOuts": [
+            {
+               "project": "test19", 
+               "host": "localhost:1929"
+            }, 
+            {
+               "project": "test19", 
+               "host": "remote:1929"
+            }
+         ]
+      }
+   }
+} - PID: 6241  
+2013-09-16 19:19:12,752 - raxstat - raxstat.py:72 - DEBUG - *asyncore.start* - PID: 6241  
+2013-09-16 19:19:12,753 - raxstat - raxstat.py:89 - INFO - Listening @ localhost:9993 - PID: 6241  
