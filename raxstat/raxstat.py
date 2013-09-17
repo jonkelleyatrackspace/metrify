@@ -97,7 +97,11 @@ class AsyncoreServerUDP(asyncore.dispatcher):
         asyncore.dispatcher.__init__(self)
         # Bind to port 5005 on all interfaces
         self.create_socket(socket.AF_INET, socket.SOCK_DGRAM)
-        self.bind((host, int(port)))
+        try:
+            self.bind((host, int(port)))
+        except:
+            logger.fatal('Failed to bind ' + host +":"+port, exc_info=True)
+            raise() # might as well break the loop, we're not viable without bind()
 
    # Even though UDP is connectionless this is called when it binds to a port
     def handle_connect(self):
