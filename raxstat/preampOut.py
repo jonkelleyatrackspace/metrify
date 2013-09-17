@@ -5,6 +5,9 @@ logger = logging.getLogger('raxstat')
 #jonkelley sep 15 2013
 # Class wrapper for: https://github.com/WoLpH/python-statsd
 import statsd
+import socket, json, zlib # for udp emission
+
+
 
 # This files goal is to do a generic class wrap of a 'riemann' interface to do this:
 #riemann = Riemann('127.0.0.1', 5555)
@@ -91,4 +94,22 @@ class riemannevent(object):
         # Now lets use our external module
         riemann = externalModule(RIEMANNHOST, RIEMANNPORT)
         riemann.submit(payloadDict)
+
+class udpevent(object):
+    def __init__(self,host,maxChunkSize=8154):
+        (server, port ) = host.split(':')
+        logger.info("UDP output -> " + server+":"+port)
+        self.graylog2_server = server
+        self.graylog2_port = int(port)
+        self.maxChunkSize = maxChunkSize
+
+    def emit(self, message):
+        UDPSock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+        message = json.dumps(message)
+        logger.debug("UDP repeater -> zlib():" + str(message))
+        message = zlib.compress(message)
+        UDPSock.sendto(message,(self.graylog2_server,self.graylog2_port))
+        UDPSock.close()
+        
+        return
 

@@ -20,6 +20,9 @@ class event(object):
                 self.udprepeatEvent(output['host'], payload)
 
     def riemannEvent(self,fromAddress,destination,payload):
+        """ Specialized logic that formats and sends remarkable conditions to Riemann.
+        """
+        # We'll use these.
         fromAddress = str(fromAddress[0])+":"+str(fromAddress[1])
         endpoint = payload['ept']+"."+payload['eprt']
         statusCode = int(payload['rc'])
@@ -27,23 +30,24 @@ class event(object):
         responseTook = int(payload['tt'])
 
         ###########################################################
-        # Sends latency metrics.
+        # Post latency metrics.
 
+        # Colorize based on suckyness.
         if int(responseTook) <= 1:
             COLOR = 'green'
         elif int(responseTook) > 1 and int(responseTook) <= 4:
             COLOR = 'yellow'
         elif int(responseTook) > 4:
             COLOR = 'red'
-            
-        logging.debug('Color =' + COLOR)
 
         riemann = preampOut.riemannevent()
         name = "latency." + str(endpoint)
         riemann.post(destination,host=fromAddress,service=name,state=COLOR,description='Endpoint Latency',metric_f=1)
         logger.debug("output.riemann.latency:"+endpoint+" -->" + destination)
         ###########################################################
-        # Sends statuscode metrics.
+        # Post statuscode metrics.
+        
+        # Colorized based on suckyness.
         if int(statusCode) in [200]:
             COLOR = 'green'
         else:
@@ -53,13 +57,20 @@ class event(object):
         name = "statuscode." + str(endpoint)
         riemann.post(destination,host=fromAddress,service=name,state=COLOR,description='Status Code',metric_f=1)
         logger.debug("output.riemann.statcode:"+endpoint+" -->" + destination)
+
         return
         
     def graphiteEvent(self,destination,payload):
         """ Generates a riemann event for this particular gig """
         (desthost, destport) = destination.split(':')
         logger.debug("output(graphite)-->" + destination)
+
+        return
         
     def udprepeatEvent(self,destination,payload):
         """ Generates a riemann event for this particular gig """
+        udp = preampOut.udpevent(destination)
+        udp.emit(payload)
         logger.debug("output(udp)-->" + destination)
+        
+        return

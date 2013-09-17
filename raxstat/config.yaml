@@ -9,7 +9,7 @@ gigs:
             - {host: '127.0.0.1:100'}
             - {host: '127.0.0.1:200'}
         udprepeater:
-            - {host: 'udp1:699'}
+            - {host: '127.0.22.1:12202'}
   - listen: 'localhost:12202'
     outputs:
         graphite:
