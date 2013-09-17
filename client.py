@@ -4,7 +4,7 @@ import socket, asyncore
 import zlib
 
 class Client():
-    def __init__(self, server='localhost', port=12201, maxChunkSize=8154):
+    def __init__(self, server='localhost', port=12202, maxChunkSize=8154):
         self.graylog2_server = server
         self.graylog2_port = port
         self.maxChunkSize = maxChunkSize
@@ -57,13 +57,13 @@ class AsyncoreClientUDP(asyncore.dispatcher):
          message['facility'] = 'graylog2-server'
          message['ASYNC-MESSAGE-OF-THE-DAY'] = self.buffer
          message = json.dumps(message)
-         #message = zlib.compress(json.dumps(message))
+         message = zlib.compress(json.dumps(message))
 
 
          sent = self.sendto(message, (self.server, self.port))
          self.buffer = self.buffer[sent:]
 
-connection = AsyncoreClientUDP("127.0.0.1",5005) # create the "connection"
+connection = AsyncoreClientUDP("127.0.0.1",12201) # create the "connection"
 while 1:
    asyncore.loop(count = 10) # Check for upto 10 packets this call?
    connection.buffer += raw_input(" GELF > ") # raw_input (this is a blocking call)
