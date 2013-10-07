@@ -4,7 +4,7 @@ import socket, asyncore
 import zlib
 
 class Client():
-    def __init__(self, server='localhost', port=12202, maxChunkSize=8154):
+    def __init__(self, server='localhost', port=12201, maxChunkSize=8154):
         self.graylog2_server = server
         self.graylog2_port = port
         self.maxChunkSize = maxChunkSize
@@ -50,12 +50,11 @@ class AsyncoreClientUDP(asyncore.dispatcher):
 
          import json
          message={}
-         message['version'] = '1.0'
-         message['short_message'] = 'Something happened'
-         message['full_message'] = 'Stack trace\n\nMore data'
-         message['host'] = 'www1'
-         message['facility'] = 'graylog2-server'
-         message['ASYNC-MESSAGE-OF-THE-DAY'] = self.buffer
+         message['ept'] = 'identity.api.rackspacecloud.com' # endpoint
+         message['eprt'] = '443' # port
+         message['rc'] = '200' # stat code
+         message['rl'] = '0' # resp len
+         message['tt'] = self.buffer # time taken
          message = json.dumps(message)
          message = zlib.compress(json.dumps(message))
 
