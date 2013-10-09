@@ -1,1 +1,8 @@
-*.pyc
+*.py
+bin/
+bootstrap.py
+include/
+lib/
+local/
+metrify.egg-info/
+
