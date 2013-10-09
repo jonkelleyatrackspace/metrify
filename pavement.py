@@ -14,7 +14,7 @@ try:
     options(root_dir=dirname(__file__))
 
     # import our tasks
-    from task.tests import *
+#    from task.tests import *
     from task.virtualenv import *
     from task.deploy import *
 except:
@@ -25,10 +25,9 @@ from paver.setuputils import setup, find_packages
 #
 # project dependencies
 #
-
 install_requires = [
-    'python-statsd', # statsd
-    'eagleeye' # riemann
+    'python-statsd==1.6.0', # statsd
+    'eagleeye==0.2.0' # riemann
 ]
 
 #
