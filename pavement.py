@@ -27,7 +27,8 @@ from paver.setuputils import setup, find_packages
 #
 install_requires = [
     'python-statsd==1.6.0', # statsd
-    'eagleeye==0.2.0' # riemann
+    'eagleeye==0.2.0', # riemann
+    'PyYAML==3.10' #yaml
 ]
 
 #
