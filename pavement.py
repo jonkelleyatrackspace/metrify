@@ -27,7 +27,8 @@ from paver.setuputils import setup, find_packages
 #
 install_requires = [
     'python-statsd==1.6.0', # statsd
-    'eagleeye==0.2.0', # riemann
+    'eagleeye==0.2.0', 'protobuf==2.4.1', # riemann
+    'Twisted-Core==12.2.0', 'Twisted-Names==12.2.0', 'Twisted-Web==12.2.0',
     'PyYAML==3.10' #yaml
 ]
 
