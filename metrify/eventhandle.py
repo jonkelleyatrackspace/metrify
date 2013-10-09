@@ -1,7 +1,7 @@
 # Suppose to receive events and then send them out to the protocol level classes.
 import logging
 logger = logging.getLogger("raxstat") 
-import preampOut
+import outputDriver
 
 class event(object):
     """ Handles events and data payloads from raxstats and sends them off to the respective services based on config
@@ -40,7 +40,7 @@ class event(object):
         elif int(responseTook) > 4:
             COLOR = 'red'
 
-        riemann = preampOut.riemannevent()
+        riemann = outputDriver.riemannevent()
         name = "latency." + str(endpoint)
         riemann.post(destination,host=fromAddress,service=name,state=COLOR,description='Endpoint Latency',metric_f=1)
         logger.debug("output.riemann.latency:"+endpoint+" -->" + destination)
@@ -53,7 +53,7 @@ class event(object):
         else:
             COLOR = 'red'
 
-        riemann = preampOut.riemannevent()
+        riemann = outputDriver.riemannevent()
         name = "statuscode." + str(endpoint)
         riemann.post(destination,host=fromAddress,service=name,state=COLOR,description='Status Code',metric_f=1)
         logger.debug("output.riemann.statcode:"+endpoint+" -->" + destination)
@@ -69,7 +69,7 @@ class event(object):
         
     def udprepeatEvent(self,destination,payload):
         """ Generates a riemann event for this particular gig """
-        udp = preampOut.udpevent(destination)
+        udp = outputDriver.udpevent(destination)
         udp.emit(payload)
         logger.debug("output(udp)-->" + destination)
         
