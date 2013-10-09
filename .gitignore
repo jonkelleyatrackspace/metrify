@@ -1,4 +1,4 @@
-*.py
+*.pyc
 bin/
 bootstrap.py
 include/
